@@ -2,7 +2,7 @@
 // Created by cfwloader on 3/31/15.
 //
 
-#include "auxiliary.h"
+#include "Auxiliary.h"
 
 void _itoa_s(int num, char *str, int radix) {
     //return the length of result string. support _disibledevent= 10;
