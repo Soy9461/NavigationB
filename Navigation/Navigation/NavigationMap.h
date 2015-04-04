@@ -3,8 +3,9 @@
 
 #include "Stdafx.h"
 #include "BaseStructure.h"
+#include "Auxiliary.h"
 
-// µ¼º½Íø
+// å¯¼èˆªç½‘
 class NavigationGraph
 {
 private:
@@ -14,46 +15,46 @@ public:
 	{
 	}
 
-	// ÃèÊö:
-	// Ôö¼ÓĞÂµÄÂ·µã
-	// ²ÎÊı:
-	// x, y, z--Â·µãµÄ×ø±ê, type--Â·µãµÄÀàĞÍ, _name--Â·µãµÄÃû³Æ
-	// Â·µãÀàĞÍ²Î¼ûPointType, ÔÚBaseStructure.hÀï
+	// æè¿°:
+	// å¢åŠ æ–°çš„è·¯ç‚¹
+	// å‚æ•°:
+	// x, y, z--è·¯ç‚¹çš„åæ ‡, type--è·¯ç‚¹çš„ç±»å‹, _name--è·¯ç‚¹çš„åç§°
+	// è·¯ç‚¹ç±»å‹å‚è§PointType, åœ¨BaseStructure.hé‡Œ
 	void AddNewPoint(double x, double y, double z, int type, std::string _name);
 
-	// ÃèÊö:
-	// Á¬½ÓÁ½¸öÂ·µã
-	// ²ÎÊı:
-	// pFrom--³öÂ·µã, pTo--ÈëÂ·µã
+	// æè¿°:
+	// è¿æ¥ä¸¤ä¸ªè·¯ç‚¹
+	// å‚æ•°:
+	// pFrom--å‡ºè·¯ç‚¹, pTo--å…¥è·¯ç‚¹
 	void AddNewEdge(Navigation_Point *pFrom, Navigation_Point *pTo);
 
-	// ÃèÊö:
-	// Á¬½ÓÁ½¸öÂ·µã
-	// ²ÎÊı:
-	// FromName--³öÂ·µãÃû³Æ, ToName--ÈëÂ·µãÃû³Æ
+	// æè¿°:
+	// è¿æ¥ä¸¤ä¸ªè·¯ç‚¹
+	// å‚æ•°:
+	// FromName--å‡ºè·¯ç‚¹åç§°, ToName--å…¥è·¯ç‚¹åç§°
 	void AddNewEdge(std::string &FromName, std::string &ToName);
 
-	// ÃèÊö:
-	// Á¬½ÓÁ½¸öÂ·µã
-	// ²ÎÊı:
-	// FromName--³öÂ·µãÃû³Æ, ToName--ÈëÂ·µãÃû³Æ
-	// ¼æÈİchar*Ğ´·¨
+	// æè¿°:
+	// è¿æ¥ä¸¤ä¸ªè·¯ç‚¹
+	// å‚æ•°:
+	// FromName--å‡ºè·¯ç‚¹åç§°, ToName--å…¥è·¯ç‚¹åç§°
+	// å…¼å®¹char*å†™æ³•
 	void AddNewEdge(char *FromName, char *ToName);
 
-	// ÃèÊö:
-	// Í¨¹ıÃû³Æ»ñÈ¡Â·µã
-	// ²ÎÊı:
-	// name--Â·µãÃû³Æ
-	// ·µ»ØÖµ:
-	// Â·µãÖ¸Õë
+	// æè¿°:
+	// é€šè¿‡åç§°è·å–è·¯ç‚¹
+	// å‚æ•°:
+	// name--è·¯ç‚¹åç§°
+	// è¿”å›å€¼:
+	// è·¯ç‚¹æŒ‡é’ˆ
 	Navigation_Point *GetPointByName(std::string &name);
 
-	// ÃèÊö:
-	// Êä³öËùÓĞÂ·µãÒÔ¼°ÆäÁ¬½Ó±ß
+	// æè¿°:
+	// è¾“å‡ºæ‰€æœ‰è·¯ç‚¹ä»¥åŠå…¶è¿æ¥è¾¹
 	void DebugPrint();
 };
 
-// ¶ºBÂ¥
+// é€—Bæ¥¼
 class Building_B
 {
 private:
@@ -63,14 +64,14 @@ private:
 public:
 	Building_B(){GenerateGraph();}
 
-	// ÃèÊö:
-	// »ñÈ¡Â·Íø
-	// ·µ»ØÖµ:
-	// Â·ÍøµÄÒıÓÃ
+	// æè¿°:
+	// è·å–è·¯ç½‘
+	// è¿”å›å€¼:
+	// è·¯ç½‘çš„å¼•ç”¨
 	NavigationGraph &GetGraph(){return TheGraph;}
 
-	// ÃèÊö:
-	// Êä³öÂ·ÍøµÄËùÓĞÂ·µãÒÔ¼°ÆäÁ¬½Ó±ß
+	// æè¿°:
+	// è¾“å‡ºè·¯ç½‘çš„æ‰€æœ‰è·¯ç‚¹ä»¥åŠå…¶è¿æ¥è¾¹
 	void DebugPrint(){TheGraph.DebugPrint();}
 };
 #endif

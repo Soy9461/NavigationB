@@ -82,31 +82,31 @@ const bool Navigation_Point::CheckReachable(Navigation_Point *pTo)
 	const Vec3 &FromPosition = this->GetPos();
 	const Vec3 &ToPosition = pTo->GetPos();
 	bool IsStair = (Type == ePT_Stair && pTo->GetType() == ePT_Stair);
-	if(!IsStair)		//Â¥ÌİµÄ¸ß¶È¿É´ï¾àÀëÓëÆÕÍ¨Â·µã²»Í¬£¬·Ö¶øÖÎÖ®,´Ë´¦ÎªÆÕÍ¨Â·µãµÄÅĞ¶¨
+	if(!IsStair)		//æ¥¼æ¢¯çš„é«˜åº¦å¯è¾¾è·ç¦»ä¸æ™®é€šè·¯ç‚¹ä¸åŒï¼Œåˆ†è€Œæ²»ä¹‹,æ­¤å¤„ä¸ºæ™®é€šè·¯ç‚¹çš„åˆ¤å®š
 	{
-		if(abs(FromPosition.z - ToPosition.z) > 2.5)			//¸ß¶ÈÅĞ¶¨
+		if(abs(FromPosition.z - ToPosition.z) > 2.5)			//é«˜åº¦åˆ¤å®š
 		{
 			return false;
 		}
 
 		float Distance2D = (FromPosition - ToPosition).Getlength2D();
-		if(Distance2D > 17)			//Ë®Æ½¾àÀëÅĞ¶¨
+		if(Distance2D > 17)			//æ°´å¹³è·ç¦»åˆ¤å®š
 		{
 			return false;
 		}
 
 		return true;
 	}
-	else				//´Ë´¦ÎªÂ¥ÌİµÄÅĞ¶¨
+	else				//æ­¤å¤„ä¸ºæ¥¼æ¢¯çš„åˆ¤å®š
 	{
 		float DiffHeight = abs(FromPosition.z - ToPosition.z);
 		float Distance2D = (FromPosition - ToPosition).Getlength2D();
-		if(DiffHeight < 6 && Distance2D < 0.5)		//Í¬Ò»¸öÂ¥ÌİµÄÉÏÏÂÁ¬½Ó
+		if(DiffHeight < 6 && Distance2D < 0.5)		//åŒä¸€ä¸ªæ¥¼æ¢¯çš„ä¸Šä¸‹è¿æ¥
 		{
 			return true;
 		}
 
-		if(Distance2D < 20 && DiffHeight < 2)		//²»Í¬Â¥ÌİµÄË®Æ½Á¬½Ó
+		if(Distance2D < 20 && DiffHeight < 2)		//ä¸åŒæ¥¼æ¢¯çš„æ°´å¹³è¿æ¥
 			return true;
 
 		return false;

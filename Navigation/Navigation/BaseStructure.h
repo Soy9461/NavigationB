@@ -4,8 +4,8 @@
 #include "Stdafx.h"
 #include "Vector3.h"
 
-// Â·µãÀàĞÍ
-// ¿ÉÒÔËæÊ±Ìí¼Ó
+// è·¯ç‚¹ç±»å‹
+// å¯ä»¥éšæ—¶æ·»åŠ 
 enum PointType
 {
 	ePT_WayPoint			= 0,
@@ -22,7 +22,7 @@ enum PointType
 //------------------------------------------------------------
 class Navigation_Edge;
 
-//Â·µã
+//è·¯ç‚¹
 class Navigation_Point
 {
 private:
@@ -39,7 +39,7 @@ public:
 
 	~Navigation_Point();
 
-	//¸÷ÖÖGetºÍSet
+	//å„ç§Getå’ŒSet
 	inline const Vec3 &GetPos() const {return Position;}
 	inline Vec3 GetPos(){return Position;}
 
@@ -52,22 +52,22 @@ public:
 	const std::deque<Navigation_Edge*> &GetEdges()const {return ToEdges;}
 
 
-	// ÃèÊö:
-	// ¸ø¸Ã½ÚµãÌí¼Ó±ß
-	// ²ÎÊı:
-	// ÒªÌí¼ÓµÄ±ßµÄÖ¸Õë
+	// æè¿°:
+	// ç»™è¯¥èŠ‚ç‚¹æ·»åŠ è¾¹
+	// å‚æ•°:
+	// è¦æ·»åŠ çš„è¾¹çš„æŒ‡é’ˆ
 	void AddEdges(Navigation_Edge *pEdge);
 
-	// ÃèÊö:
-	// ¼ì²éÊÇ·ñÒÑ¾­ÓĞµ½Ä³Â·µãµÄ±ß
-	// ²ÎÊı:
-	// pTo--Òª¼ì²éµÄ³öÂ·µã
+	// æè¿°:
+	// æ£€æŸ¥æ˜¯å¦å·²ç»æœ‰åˆ°æŸè·¯ç‚¹çš„è¾¹
+	// å‚æ•°:
+	// pTo--è¦æ£€æŸ¥çš„å‡ºè·¯ç‚¹
 	const bool CheckEdgeAvailable(Navigation_Point *To);
 
-	// ÃèÊö
-	// ¼ì²éÁ½µãÊÇ·ñ¿É´ï£¬µ±Ç°ÊµÏÖÖĞ½öÍ¨¹ı¾àÀëÀ´ÅĞ¶¨
-	// ²ÎÊı:
-	// pTo--Òª¼ì²éµÄ³öÂ·µã
+	// æè¿°
+	// æ£€æŸ¥ä¸¤ç‚¹æ˜¯å¦å¯è¾¾ï¼Œå½“å‰å®ç°ä¸­ä»…é€šè¿‡è·ç¦»æ¥åˆ¤å®š
+	// å‚æ•°:
+	// pTo--è¦æ£€æŸ¥çš„å‡ºè·¯ç‚¹
 	const bool CheckReachable(Navigation_Point *pTo);
 };
 

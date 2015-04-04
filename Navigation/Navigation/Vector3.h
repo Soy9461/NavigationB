@@ -1,8 +1,8 @@
 #ifndef _VECTOR3_H_
 #define _VECTOR3_H_
 
-// Ëæ±ãÐ´ÁË¸ö¼òµ¥µÄÈýÎ¬×ø±êÄ£°åÁ·Á·ÊÖ
-// Èç¹ûÊ¹ÓÃÃ»ÎÊÌâÎÞÊÓ¼´¿É
+// éšä¾¿å†™äº†ä¸ªç®€å•çš„ä¸‰ç»´åæ ‡æ¨¡æ¿ç»ƒç»ƒæ‰‹
+// å¦‚æžœä½¿ç”¨æ²¡é—®é¢˜æ— è§†å³å¯
 
 template<typename T>
 struct Vec3_tpl
