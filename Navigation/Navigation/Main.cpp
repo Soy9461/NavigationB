@@ -1,4 +1,4 @@
-#include "NavigationMap.h"
+#include "DataStructures/NavigationMap.h"
 
 int main()
 {
