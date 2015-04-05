@@ -1,9 +1,10 @@
 #ifndef _NAVIGATIONMAP_H_
 #define _NAVIGATIONMAP_H_
 
-#include "Stdafx.h"
+#include "../Auxiliaries/Stdafx.h"
 #include "BaseStructure.h"
 #include "../Auxiliaries/Auxiliary.h"
+#include "NavigationPath.h"
 
 // 导航网
 class NavigationGraph
@@ -52,6 +53,16 @@ public:
 	// 描述:
 	// 输出所有路点以及其连接边
 	void DebugPrint();
+
+	// 描述：
+	// 获得指定路点间的最短路径
+	// 实现算法为Dijkstra算法
+	// 参数：
+	// FromName--出路点名称，ToName--入路点名称
+	// 返回值：
+	// 成功时返回NavigationPath指针
+	// 失败时返回空指针
+	NavigationPath* FindPath(std::string& FromName, std::string& ToName);
 };
 
 // 逗B楼

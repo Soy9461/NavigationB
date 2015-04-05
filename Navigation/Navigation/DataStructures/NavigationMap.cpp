@@ -156,3 +156,9 @@ void Building_B::GenerateGraph()
 	TheGraph.AddNewPoint(192.33,26.94,0,ePT_Stair,"1_Stair_N_1");
 	TheGraph.AddNewPoint(115.44,26.94,0,ePT_Stair,"1_Stair_N_2");
 }
+
+NavigationPath *NavigationGraph::FindPath(std::string &FromName, std::string &ToName) {
+	Navigation_Point* startPoint = this->GetPointByName(FromName), *targetPoint = this->GetPointByName(ToName);
+
+	return nullptr;
+}

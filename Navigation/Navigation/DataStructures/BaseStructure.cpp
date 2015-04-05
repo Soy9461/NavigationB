@@ -2,6 +2,8 @@
 #include <assert.h>
 #include <algorithm>
 
+const int INF= std::numeric_limits<int>::max();
+
 class EdgeCompare_Pointer 
 {  
 public:   

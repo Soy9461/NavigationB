@@ -3,6 +3,10 @@
 
 #include "../Auxiliaries/Stdafx.h"
 #include "Vector3.h"
+#include <limits>
+
+//定义在对应CPP文件中，不可达的路径耗费是INT_MAX
+extern const int INF;
 
 // 路点类型
 // 可以随时添加
@@ -72,7 +76,7 @@ public:
 };
 
 
-class Navigation_Edge 
+class Navigation_Edge
 {
 private:
 	Navigation_Point *Link_From;
@@ -83,17 +87,17 @@ public:
 	Navigation_Edge()
 		:	Link_From(NULL)
 		,	Link_To(NULL)
-		,	EdgeCost(9999){}
+		,	EdgeCost(INF){}
 
 	Navigation_Edge(Navigation_Point *From)
 		:	Link_From(From)
 		,	Link_To(NULL)
-		,	EdgeCost(9999){}
+		,	EdgeCost(INF){}
 
 	Navigation_Edge(Navigation_Point *From, Navigation_Point *To)
 		:	Link_From(From)
 		,	Link_To(To)
-		,	EdgeCost(9999)
+		,	EdgeCost(INF)
 	{
 		CalculateCost();
 	}
