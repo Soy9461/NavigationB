@@ -159,6 +159,6 @@ void Building_B::GenerateGraph()
 
 NavigationPath *NavigationGraph::FindPath(std::string &FromName, std::string &ToName) {
 	Navigation_Point* startPoint = this->GetPointByName(FromName), *targetPoint = this->GetPointByName(ToName);
-
+	std::map<int, DijkstraNode> dijkstraNodes;
 	return nullptr;
 }
