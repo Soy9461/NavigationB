@@ -49,6 +49,9 @@ public:
 	void SetType(int _type){Type = _type;}
 	const std::string &GetName()const {return Name;}
 
+	const int GetId(){return Id;}
+	inline void SetId(int _id){Id = _id;}
+
 	const std::deque<Navigation_Edge*> &GetEdges()const {return ToEdges;}
 
 

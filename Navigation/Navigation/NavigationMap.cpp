@@ -16,6 +16,7 @@ void NavigationGraph::AddNewPoint(double x, double y, double z, int type, std::s
 		++iter;
 	}
 
+	NewPoint->SetId(static_cast<int>(Points.size()));
 	Points.push_back(NewPoint);
 }
 
@@ -89,6 +90,22 @@ Navigation_Point *NavigationGraph::GetPointByName(std::string &name)
 	}
 	return NULL;
 }
+
+Navigation_Point *NavigationGraph::GetPointById(int Id)
+{
+	//Replace by std::find_if later
+
+	std::deque<Navigation_Point*>::iterator iter = Points.begin();
+	std::deque<Navigation_Point*>::iterator end = Points.end();
+	while(iter != end)
+	{
+		if((*iter)->GetId() == Id)
+			return (*iter);
+		++iter;
+	}
+	return NULL;
+}
+
 
 void NavigationGraph::DebugPrint()
 {
