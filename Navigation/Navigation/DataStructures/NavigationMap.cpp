@@ -165,6 +165,7 @@ std::deque<Navigation_Point*> *NavigationGraph::FindPath(std::string &FromName, 
     //---- 从出路点开始，初始化迪杰斯特拉算法
     //Navigation_Point *currentPoint = startPoint;
     DijkstraNode *currentNode = dijkstraNodes[startPoint->GetId()];
+    currentNode->addNodeToPathTail(currentNode->getThePoint());
     currentNode->setCost(0);
 
     //---- 算法正体
@@ -186,7 +187,7 @@ std::deque<Navigation_Point*> *NavigationGraph::FindPath(std::string &FromName, 
                     dijkstraNodes[(*edgeIterator)->GetToPoint()->GetId()]->setNodesInPath(
                             currentNode->getNodesInPath());
 
-                    //这里使用了const_cast
+                    //这里曾使用了const_cast,后来改了
                     dijkstraNodes[(*edgeIterator)->GetToPoint()->GetId()]->addNodeToPathTail(
                             (*edgeIterator)->GetToPoint());
                 }
@@ -214,4 +215,8 @@ std::deque<Navigation_Point*> *NavigationGraph::FindPath(std::string &FromName, 
     }
 
     return targetPath;
+}
+
+std::deque<Navigation_Point *>* Building_B::FindPath(std::string& FromNode, std::string& ToNode) {
+    return TheGraph.FindPath(FromNode, ToNode);
 }

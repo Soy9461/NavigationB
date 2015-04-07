@@ -88,6 +88,8 @@ public:
 	// 路网的引用
 	NavigationGraph &GetGraph(){return TheGraph;}
 
+	std::deque<Navigation_Point*>* FindPath(std::string&, std::string&);
+
 	// 描述:
 	// 输出路网的所有路点以及其连接边
 	void DebugPrint(){TheGraph.DebugPrint();}
