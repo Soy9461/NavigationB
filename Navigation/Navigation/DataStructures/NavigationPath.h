@@ -8,6 +8,7 @@
 #include <deque>
 #include "BaseStructure.h"
 
+/*
 class NavigationPath {
 public:
 
@@ -24,7 +25,16 @@ public:
 
     // 将新节点加入到路径尾部，深度复制节点值
     // 后来想想还是浅复制好了
-    void addPointToPathTail(Navigation_Point* const);
+    void addPointToPathTail(const Navigation_Point* const) const;
+
+
+    std::deque<Navigation_Point *> const &getNodesInPath() const {
+        return nodesInPath;
+    }
+
+    void setNodesInPath(std::deque<Navigation_Point *> const &nodesInPath) {
+        NavigationPath::nodesInPath = nodesInPath;
+    }
 
     friend std::ostream& operator<<(std::ostream&, const NavigationPath&);
 
@@ -38,22 +48,15 @@ private:
     // 同理
     //void DeepClean();
 
-    std::deque<Navigation_Point*> nodesInPath;
+    //map返回的second是const的，只能通过mutable解决这个矛盾的样子
+    mutable std::deque<Navigation_Point*> nodesInPath;
 };
+ */
 
 class DijkstraNode{
 public:
 
-
-    DijkstraNode() : visited(false), foundShortestPath(false), cost(INF), distance(){
-    }
-
-    bool isVisited() const {
-        return visited;
-    }
-
-    void setVisited(bool visited) {
-        DijkstraNode::visited = visited;
+    explicit DijkstraNode(Navigation_Point* point) : thePoint(point), foundShortestPath(false), cost(INF), distance(){
     }
 
     bool isFoundShortestPath() const {
@@ -73,23 +76,33 @@ public:
         DijkstraNode::cost = cost;
     }
 
-    NavigationPath const &getDistance() const {
-        return distance;
+    Navigation_Point *getThePoint() const {
+        return thePoint;
     }
 
-    void setDistance(NavigationPath const &distance) {
-        DijkstraNode::distance = distance;
+    void setThePoint(Navigation_Point *thePoint) {
+        DijkstraNode::thePoint = thePoint;
     }
 
-    void addNodeToPathTail(const Navigation_Point* const point){
-        distance.addPointToPathTail(point);
+    std::deque<Navigation_Point *> const &getNodesInPath() const {
+        return nodesInPath;
     }
+
+    void setNodesInPath(std::deque<Navigation_Point *> const &nodesInPath) {
+        DijkstraNode::nodesInPath = nodesInPath;
+    }
+
+    void addNodeToPathTail(const Navigation_Point* const point) const {
+        nodesInPath.push_back(point);
+    }
+
+    static DijkstraNode* findMinimumPath(const std::map<int, DijkstraNode*>&);
 
 private:
-    bool visited;
     bool foundShortestPath;
     double cost;
-    NavigationPath distance;
+    Navigation_Point* thePoint;
+    mutable std::deque<Navigation_Point*> nodesInPath;
 };
 
 

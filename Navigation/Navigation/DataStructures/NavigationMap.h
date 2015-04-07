@@ -1,9 +1,8 @@
-#ifndef _NAVIGATIONMAP_H_
+﻿#ifndef _NAVIGATIONMAP_H_
 #define _NAVIGATIONMAP_H_
 
 #include "../Auxiliaries/Stdafx.h"
 #include "BaseStructure.h"
-#include "../Auxiliaries/Auxiliary.h"
 #include "NavigationPath.h"
 
 // 导航网
@@ -51,6 +50,14 @@ public:
 	Navigation_Point *GetPointByName(std::string &name);
 
 	// 描述:
+	// 通过Id获取路点
+	// 参数:
+	// Id--路点Id
+	// 返回值:
+	// 路点指针
+	Navigation_Point *GetPointById(int Id);
+
+	// 描述:
 	// 输出所有路点以及其连接边
 	void DebugPrint();
 
@@ -62,7 +69,7 @@ public:
 	// 返回值：
 	// 成功时返回NavigationPath指针
 	// 失败时返回空指针
-	NavigationPath* FindPath(std::string& FromName, std::string& ToName);
+	std::deque<Navigation_Point*>* FindPath(std::string& FromName, std::string& ToName);
 };
 
 // 逗B楼

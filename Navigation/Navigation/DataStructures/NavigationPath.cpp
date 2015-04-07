@@ -72,7 +72,7 @@ void NavigationPath::DeepCopy(std::deque<Navigation_Point *> &deque) {
 }
 */
 
-void NavigationPath::addPointToPathTail(Navigation_Point *const point) {
+void NavigationPath::addPointToPathTail(const Navigation_Point *const point) const {
     //nodesInPath.push_back(new Navigation_Point(point->GetPos().x, point->GetPos().y, point->GetPos().z, point->GetName()));
     nodesInPath.push_back(point);
 }
@@ -87,4 +87,19 @@ std::ostream &operator<<(std::ostream &os, NavigationPath const &aConst) {
     }
     os << std::endl;
     return os;
+}
+
+static DijkstraNode *DijkstraNode::findMinimumPath(std::map<int, DijkstraNode *> const &map) {
+    DijkstraNode* targetNode = nullptr;
+    double targetCost = INF;
+    std::map<int, DijkstraNode*>::const_iterator iterator, end;
+
+    for(iterator = map.begin(), end = map.end(); iterator != end; ++iterator){
+        if(((*iterator).second->getCost() < targetCost) && !((*iterator).second->isFoundShortestPath())){
+            targetNode = (*iterator).second;
+            targetCost = targetNode->getCost();
+        }
+    }
+
+    return targetNode;
 }

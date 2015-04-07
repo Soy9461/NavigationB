@@ -4,6 +4,6 @@ int main()
 {
 	Building_B TheBuilding;
 	TheBuilding.DebugPrint();
-	getchar();
+	//getchar();
 	return 0;
 }

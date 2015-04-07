@@ -3,10 +3,8 @@
 
 #include "../Auxiliaries/Stdafx.h"
 #include "Vector3.h"
-#include <limits>
 
-//定义在对应CPP文件中，不可达的路径耗费是INT_MAX
-extern const int INF;
+extern const double INF;
 
 // 路点类型
 // 可以随时添加
@@ -53,6 +51,9 @@ public:
 	void SetType(int _type){Type = _type;}
 	const std::string &GetName()const {return Name;}
 
+	const int GetId(){return Id;}
+	inline void SetId(int _id){Id = _id;}
+
 	const std::deque<Navigation_Edge*> &GetEdges()const {return ToEdges;}
 
 
@@ -76,7 +77,7 @@ public:
 };
 
 
-class Navigation_Edge
+class Navigation_Edge 
 {
 private:
 	Navigation_Point *Link_From;
