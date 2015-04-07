@@ -56,7 +56,7 @@ private:
 class DijkstraNode{
 public:
 
-    explicit DijkstraNode(Navigation_Point* point) : thePoint(point), foundShortestPath(false), cost(INF), distance(){
+    explicit DijkstraNode(Navigation_Point* point) : thePoint(point), foundShortestPath(false), cost(INF), nodesInPath(){
     }
 
     bool isFoundShortestPath() const {
@@ -92,7 +92,7 @@ public:
         DijkstraNode::nodesInPath = nodesInPath;
     }
 
-    void addNodeToPathTail(const Navigation_Point* const point) const {
+    void addNodeToPathTail(Navigation_Point* const point) const {
         nodesInPath.push_back(point);
     }
 

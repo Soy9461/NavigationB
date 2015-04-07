@@ -210,7 +210,7 @@ std::deque<Navigation_Point*> *NavigationGraph::FindPath(std::string &FromName, 
          iterator != end;
          ++iterator) {
         delete (*iterator).second;
-        (*iterator).second = nullptr;
+        //(*iterator).second = nullptr;
     }
 
     return targetPath;

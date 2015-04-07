@@ -5,6 +5,7 @@
 #include <ostream>
 #include "NavigationPath.h"
 
+/*
 NavigationPath::NavigationPath() {
 }
 
@@ -12,7 +13,8 @@ NavigationPath::NavigationPath(NavigationPath const &aConst) : nodesInPath(aCons
     //this->DeepCopy(aConst.nodesInPath);
     //this->nodesInPath = aConst.nodesInPath;
 }
-
+ */
+/*
 NavigationPath::~NavigationPath() {
     //this->DeepClean();
     /*
@@ -24,10 +26,12 @@ NavigationPath::~NavigationPath() {
         *iter = 0;
         ++iter;
     }
-    */
+    -------原注释线*
     while (!nodesInPath.empty())nodesInPath.pop_front();
 }
+*/
 
+/*
 const NavigationPath &NavigationPath::operator=(NavigationPath const &aConst) {
     //this->DeepCopy(aConst.nodesInPath);
 
@@ -37,6 +41,7 @@ const NavigationPath &NavigationPath::operator=(NavigationPath const &aConst) {
     this->nodesInPath = aConst.nodesInPath;
     return *this;
 }
+ */
 
 /*
 void NavigationPath::DeepClean() {
@@ -72,6 +77,7 @@ void NavigationPath::DeepCopy(std::deque<Navigation_Point *> &deque) {
 }
 */
 
+/*
 void NavigationPath::addPointToPathTail(const Navigation_Point *const point) const {
     //nodesInPath.push_back(new Navigation_Point(point->GetPos().x, point->GetPos().y, point->GetPos().z, point->GetName()));
     nodesInPath.push_back(point);
@@ -88,8 +94,9 @@ std::ostream &operator<<(std::ostream &os, NavigationPath const &aConst) {
     os << std::endl;
     return os;
 }
+ */
 
-static DijkstraNode *DijkstraNode::findMinimumPath(std::map<int, DijkstraNode *> const &map) {
+DijkstraNode *DijkstraNode::findMinimumPath(std::map<int, DijkstraNode *> const &map) {
     DijkstraNode* targetNode = nullptr;
     double targetCost = INF;
     std::map<int, DijkstraNode*>::const_iterator iterator, end;
