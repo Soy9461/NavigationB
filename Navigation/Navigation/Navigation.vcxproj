@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClInclude Include="BaseStructure.h" />
     <ClInclude Include="NavigationMap.h" />
+    <ClInclude Include="NavigationPath.h" />
     <ClInclude Include="Stdafx.h" />
     <ClInclude Include="Vector3.h" />
   </ItemGroup>
@@ -73,6 +74,7 @@
     <ClCompile Include="BaseStructure.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="NavigationMap.cpp" />
+    <ClCompile Include="NavigationPath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

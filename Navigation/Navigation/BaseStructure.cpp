@@ -1,11 +1,13 @@
-#include "BaseStructure.h"
+ï»¿#include "BaseStructure.h"
 #include <assert.h>
 #include <algorithm>
+
+const double INF= std::numeric_limits<double>::max();
 
 class EdgeCompare_Pointer 
 {  
 public:   
-	EdgeCompare_Pointer(Navigation_Point *_to)
+	EdgeCompare_Pointer(INavigationPoint *_to)
 	{
 		To = _to;
 	}
@@ -16,7 +18,7 @@ public:
 	}  
 
 private:
-	Navigation_Point *To;
+	INavigationPoint *To;
 };  
 
 Navigation_Point::Navigation_Point()
@@ -64,7 +66,7 @@ void Navigation_Point::AddEdges(Navigation_Edge *pEdge)
 	ToEdges.push_back(pEdge);
 }
 
-const bool Navigation_Point::CheckEdgeAvailable(Navigation_Point *To)
+const bool Navigation_Point::CheckEdgeAvailable(INavigationPoint *To)
 {
 	if(To == this)
 		return false;
@@ -77,36 +79,54 @@ const bool Navigation_Point::CheckEdgeAvailable(Navigation_Point *To)
 	return false;
 }
 
-const bool Navigation_Point::CheckReachable(Navigation_Point *pTo)
+const bool Navigation_Point::CheckReachable(INavigationPoint *pTo)
 {
 	const Vec3 &FromPosition = this->GetPos();
 	const Vec3 &ToPosition = pTo->GetPos();
-	bool IsStair = (Type == ePT_Stair && pTo->GetType() == ePT_Stair);
-	if(!IsStair)		//Â¥ÌİµÄ¸ß¶È¿É´ï¾àÀëÓëÆÕÍ¨Â·µã²»Í¬£¬·Ö¶øÖÎÖ®,´Ë´¦ÎªÆÕÍ¨Â·µãµÄÅĞ¶¨
+	if(GetExclusionType() != -1 || pTo->GetExclusionType() != -1)
 	{
-		if(abs(FromPosition.z - ToPosition.z) > 2.5)			//¸ß¶ÈÅĞ¶¨
+		if((Type & pTo->GetExclusionType()) == 0)
+			return false;
+		else if((pTo->GetType() & GetExclusionType()) == 0)
+			return false;
+	}
+	bool IsStair = (Type == ePT_Stair && pTo->GetType() == ePT_Stair);
+	if(!IsStair)		//æ¥¼æ¢¯çš„é«˜åº¦å¯è¾¾è·ç¦»ä¸æ™®é€šè·¯ç‚¹ä¸åŒï¼Œåˆ†è€Œæ²»ä¹‹,æ­¤å¤„ä¸ºæ™®é€šè·¯ç‚¹çš„åˆ¤å®š
+	{
+		const double diff_height = abs(FromPosition.z - ToPosition.z);
+		if(diff_height > 1.2)			//é«˜åº¦åˆ¤å®š
 		{
 			return false;
 		}
 
 		float Distance2D = (FromPosition - ToPosition).Getlength2D();
-		if(Distance2D > 17)			//Ë®Æ½¾àÀëÅĞ¶¨
+		if(diff_height <= 0.05)
 		{
-			return false;
+			if(Distance2D > 30)			//æ°´å¹³è·ç¦»åˆ¤å®š
+			{
+				return false;
+			}
+		}
+		else
+		{
+			if(Distance2D > 17.6)			//æ°´å¹³è·ç¦»åˆ¤å®š
+			{
+				return false;
+			}
 		}
 
 		return true;
 	}
-	else				//´Ë´¦ÎªÂ¥ÌİµÄÅĞ¶¨
+	else				//æ­¤å¤„ä¸ºæ¥¼æ¢¯çš„åˆ¤å®š
 	{
 		float DiffHeight = abs(FromPosition.z - ToPosition.z);
 		float Distance2D = (FromPosition - ToPosition).Getlength2D();
-		if(DiffHeight < 6 && Distance2D < 0.5)		//Í¬Ò»¸öÂ¥ÌİµÄÉÏÏÂÁ¬½Ó
+		if(DiffHeight < 6 && Distance2D < 0.2)		//åŒä¸€ä¸ªæ¥¼æ¢¯çš„ä¸Šä¸‹è¿æ¥
 		{
 			return true;
 		}
 
-		if(Distance2D < 20 && DiffHeight < 2)		//²»Í¬Â¥ÌİµÄË®Æ½Á¬½Ó
+		if(Distance2D < 20 && DiffHeight < 2)		//ä¸åŒæ¥¼æ¢¯çš„æ°´å¹³è¿æ¥
 			return true;
 
 		return false;
