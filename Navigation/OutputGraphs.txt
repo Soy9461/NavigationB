@@ -1,0 +1,1486 @@
+CurPoint: 101 Height: 0
+101 --- 103  Distance: 15.4
+101 --- North_Door_1  Distance: 21.7252
+101 --- 1_Stair_S_1  Distance: 9.50295
+101 --- 1_Stair_C_1  Distance: 15.5828
+
+CurPoint: 103 Height: 0
+103 --- 101  Distance: 15.4
+103 --- 105  Distance: 15.62
+103 --- North_Door_1  Distance: 12.2526
+103 --- 1_Stair_S_1  Distance: 24.7398
+103 --- 1_Stair_S_2  Distance: 26.1644
+103 --- 1_Stair_C_1  Distance: 8.16375
+
+CurPoint: 105 Height: 0
+105 --- 103  Distance: 15.62
+105 --- 106  Distance: 15.84
+105 --- North_Door_1  Distance: 17.5556
+105 --- 1_Stair_S_2  Distance: 10.6832
+105 --- 1_Stair_S_3  Distance: 26.3836
+105 --- 1_Stair_C_1  Distance: 19.2999
+105 --- 1_Stair_C_2  Distance: 18.7
+
+CurPoint: 106 Height: 0
+106 --- 105  Distance: 15.84
+106 --- 107  Distance: 15.95
+106 --- North_Door_2  Distance: 26.4931
+106 --- 1_Stair_S_2  Distance: 5.82928
+106 --- 1_Stair_S_3  Distance: 10.6832
+106 --- 1_Stair_C_2  Distance: 7.99602
+
+CurPoint: 107 Height: 0
+107 --- 106  Distance: 15.95
+107 --- North_Door_2  Distance: 14.2075
+107 --- North_Door_3  Distance: 27.7771
+107 --- 1_Stair_S_2  Distance: 21.4552
+107 --- 1_Stair_S_3  Distance: 5.93114
+107 --- 1_Stair_S_4  Distance: 25.3972
+107 --- 1_Stair_C_2  Distance: 16.83
+107 --- 1_Stair_C_3  Distance: 15.4881
+107 --- 1_Stair_N_1  Distance: 23.5168
+
+CurPoint: Center_Door_1 Height: 0
+Center_Door_1 --- North_Door_2  Distance: 24.2686
+Center_Door_1 --- North_Door_3  Distance: 9.38467
+Center_Door_1 --- North_Door_4  Distance: 18.7035
+Center_Door_1 --- 1_Stair_S_5  Distance: 28.416
+Center_Door_1 --- 1_Stair_S_4  Distance: 8.6838
+Center_Door_1 --- 2_Stair_S_5  Distance: 28.416
+Center_Door_1 --- 2_Stair_S_4  Distance: 8.75408
+Center_Door_1 --- 1_Stair_C_3  Distance: 17.8212
+Center_Door_1 --- 1_Stair_C_4  Distance: 17.8212
+Center_Door_1 --- 1_Stair_N_1  Distance: 20.0379
+
+CurPoint: Center_Door_2 Height: 0
+Center_Door_2 --- North_Door_6  Distance: 20.7404
+Center_Door_2 --- 1_WayPoint_2  Distance: 9.12316
+Center_Door_2 --- North_Door_7  Distance: 17.3014
+Center_Door_2 --- 118  Distance: 23.2006
+Center_Door_2 --- 1_Stair_S_8  Distance: 13.0785
+Center_Door_2 --- 1_Stair_S_7  Distance: 18.0199
+Center_Door_2 --- 2_Stair_S_8  Distance: 13.0785
+Center_Door_2 --- 2_Stair_S_7  Distance: 18.0199
+Center_Door_2 --- 1_Stair_C_5  Distance: 28.6945
+Center_Door_2 --- 1_Stair_C_6  Distance: 19.9848
+Center_Door_2 --- 2_Stair_C_5  Distance: 28.6945
+Center_Door_2 --- 2_Stair_C_6  Distance: 19.9848
+
+CurPoint: North_Door_1 Height: 0
+North_Door_1 --- 101  Distance: 21.7252
+North_Door_1 --- 103  Distance: 12.2526
+North_Door_1 --- 105  Distance: 17.5556
+North_Door_1 --- 1_Stair_S_2  Distance: 27.2824
+North_Door_1 --- 1_Stair_C_1  Distance: 6.20752
+
+CurPoint: North_Door_2 Height: 0
+North_Door_2 --- 106  Distance: 26.4931
+North_Door_2 --- 107  Distance: 14.2075
+North_Door_2 --- Center_Door_1  Distance: 24.2686
+North_Door_2 --- North_Door_3  Distance: 17.38
+North_Door_2 --- 1_Stair_S_3  Distance: 19.3583
+North_Door_2 --- 1_Stair_S_4  Distance: 22.5891
+North_Door_2 --- 1_Stair_C_2  Distance: 22.9055
+North_Door_2 --- 1_Stair_C_3  Distance: 6.90163
+North_Door_2 --- 1_Stair_N_1  Distance: 9.72296
+
+CurPoint: North_Door_3 Height: 0
+North_Door_3 --- 107  Distance: 27.7771
+North_Door_3 --- Center_Door_1  Distance: 9.38467
+North_Door_3 --- North_Door_2  Distance: 17.38
+North_Door_3 --- North_Door_4  Distance: 22.88
+North_Door_3 --- 1_Stair_S_4  Distance: 14.1617
+North_Door_3 --- 2_Stair_S_4  Distance: 14.2049
+North_Door_3 --- 1_Stair_C_3  Distance: 12.4376
+North_Door_3 --- 1_Stair_C_4  Distance: 23.5556
+North_Door_3 --- 1_Stair_N_1  Distance: 11.0137
+
+CurPoint: North_Door_4 Height: 0
+North_Door_4 --- Center_Door_1  Distance: 18.7035
+North_Door_4 --- North_Door_3  Distance: 22.88
+North_Door_4 --- 1_WayPoint_1  Distance: 17.49
+North_Door_4 --- 216  Distance: 11.9436
+North_Door_4 --- 217  Distance: 23.0274
+North_Door_4 --- 1_Stair_S_5  Distance: 17.5985
+North_Door_4 --- 1_Stair_S_4  Distance: 26.7204
+North_Door_4 --- 2_Stair_S_5  Distance: 17.5985
+North_Door_4 --- 1_Stair_C_4  Distance: 4.03352
+North_Door_4 --- 2_Stair_C_4  Distance: 4.03789
+
+CurPoint: 1_WayPoint_1 Height: 0
+1_WayPoint_1 --- North_Door_4  Distance: 17.49
+1_WayPoint_1 --- North_Door_5  Distance: 17.82
+
+CurPoint: North_Door_5 Height: 0
+North_Door_5 --- 1_WayPoint_1  Distance: 17.82
+North_Door_5 --- North_Door_6  Distance: 25.52
+North_Door_5 --- 217  Distance: 19.6608
+North_Door_5 --- 218  Distance: 11.9582
+North_Door_5 --- 118  Distance: 25.1368
+North_Door_5 --- 1_Stair_S_5  Distance: 28.6099
+North_Door_5 --- 1_Stair_S_6  Distance: 15.1124
+North_Door_5 --- 2_Stair_S_5  Distance: 28.6099
+North_Door_5 --- 2_Stair_S_6  Distance: 15.1124
+North_Door_5 --- 1_Stair_C_5  Distance: 16.8758
+North_Door_5 --- 2_Stair_C_5  Distance: 16.8758
+North_Door_5 --- 1_Stair_N_2  Distance: 10.8253
+
+CurPoint: North_Door_6 Height: 0
+North_Door_6 --- Center_Door_2  Distance: 20.7404
+North_Door_6 --- North_Door_5  Distance: 25.52
+North_Door_6 --- 1_WayPoint_2  Distance: 14.08
+North_Door_6 --- 218  Distance: 27.5787
+North_Door_6 --- 118  Distance: 12.4147
+North_Door_6 --- 1_Stair_S_7  Distance: 14.404
+North_Door_6 --- 2_Stair_S_7  Distance: 14.404
+North_Door_6 --- 1_Stair_C_5  Distance: 9.97584
+North_Door_6 --- 2_Stair_C_5  Distance: 9.97584
+North_Door_6 --- 1_Stair_N_2  Distance: 17.2293
+
+CurPoint: 1_WayPoint_2 Height: 0
+1_WayPoint_2 --- Center_Door_2  Distance: 9.12316
+1_WayPoint_2 --- North_Door_6  Distance: 14.08
+1_WayPoint_2 --- North_Door_7  Distance: 20.9
+
+CurPoint: North_Door_7 Height: 0
+North_Door_7 --- Center_Door_2  Distance: 17.3014
+North_Door_7 --- 1_WayPoint_2  Distance: 20.9
+North_Door_7 --- North_Door_8  Distance: 21.78
+North_Door_7 --- 1_Stair_S_8  Distance: 14.8279
+North_Door_7 --- 2_Stair_S_8  Distance: 14.8279
+North_Door_7 --- 1_Stair_C_6  Distance: 5.7206
+North_Door_7 --- 2_Stair_C_6  Distance: 5.7206
+
+CurPoint: North_Door_8 Height: 0
+North_Door_8 --- North_Door_7  Distance: 21.78
+North_Door_8 --- North_Door_9  Distance: 23.54
+North_Door_8 --- 324  Distance: 12.0766
+North_Door_8 --- 325  Distance: 15.6521
+North_Door_8 --- 1_Stair_S_8  Distance: 29.764
+North_Door_8 --- 2_Stair_S_8  Distance: 29.764
+North_Door_8 --- 1_Stair_C_6  Distance: 18.1605
+North_Door_8 --- 1_Stair_C_7  Distance: 16.5555
+North_Door_8 --- 2_Stair_C_6  Distance: 18.1605
+North_Door_8 --- 2_Stair_C_7  Distance: 16.5555
+North_Door_8 --- 3_Stair_C_7  Distance: 16.5555
+
+CurPoint: North_Door_9 Height: 0
+North_Door_9 --- North_Door_8  Distance: 23.54
+North_Door_9 --- 1_Stair_S_10  Distance: 14.6179
+North_Door_9 --- 2_Stair_S_10  Distance: 14.6179
+North_Door_9 --- 3_Stair_S_10  Distance: 14.6179
+North_Door_9 --- 1_Stair_C_7  Distance: 8.49181
+North_Door_9 --- 2_Stair_C_7  Distance: 8.49181
+North_Door_9 --- 3_Stair_C_7  Distance: 8.49181
+
+CurPoint: 201 Height: 4.6305
+201 --- 203  Distance: 15.4123
+201 --- 2_Stair_S_1  Distance: 9.51013
+201 --- 2_Stair_C_1  Distance: 15.592
+
+CurPoint: 203 Height: 4.01466
+203 --- 201  Distance: 15.4123
+203 --- 206  Distance: 15.6325
+203 --- 2_Stair_C_1  Distance: 8.16413
+
+CurPoint: 206 Height: 3.39003
+206 --- 203  Distance: 15.6325
+206 --- 207  Distance: 15.8527
+206 --- 2_Stair_S_2  Distance: 10.6914
+
+CurPoint: 207 Height: 2.7566
+207 --- 206  Distance: 15.8527
+207 --- 208  Distance: 15.9627
+207 --- 2_Stair_S_2  Distance: 5.83326
+207 --- 2_Stair_S_3  Distance: 10.6914
+207 --- 2_Stair_C_2  Distance: 7.99615
+
+CurPoint: 208 Height: 2.11877
+208 --- 207  Distance: 15.9627
+208 --- 211  Distance: 15.1921
+208 --- 2_Stair_S_3  Distance: 5.93521
+208 --- 2_Stair_C_2  Distance: 16.8405
+208 --- 2_Stair_C_3  Distance: 15.4973
+
+CurPoint: 211 Height: 1.51173
+211 --- 208  Distance: 15.1921
+211 --- 2_Stair_S_4  Distance: 10.3685
+211 --- 2_Stair_C_3  Distance: 8.13811
+
+CurPoint: 216 Height: 0.192082
+216 --- North_Door_4  Distance: 11.9436
+216 --- 1_Stair_S_5  Distance: 10.4699
+216 --- 2_Stair_S_5  Distance: 10.4699
+216 --- 1_Stair_C_4  Distance: 7.92309
+216 --- 2_Stair_C_4  Distance: 7.92077
+
+CurPoint: 217 Height: 0
+217 --- North_Door_4  Distance: 23.0274
+217 --- North_Door_5  Distance: 19.6608
+217 --- 218  Distance: 16.28
+217 --- 1_Stair_S_5  Distance: 9.50295
+217 --- 1_Stair_S_6  Distance: 10.5756
+217 --- 2_Stair_S_5  Distance: 9.50295
+217 --- 2_Stair_S_6  Distance: 10.5756
+217 --- 1_Stair_C_4  Distance: 20.9174
+
+CurPoint: 218 Height: 0
+218 --- North_Door_5  Distance: 11.9582
+218 --- North_Door_6  Distance: 27.5787
+218 --- 217  Distance: 16.28
+218 --- 118  Distance: 21.46
+218 --- 1_Stair_S_5  Distance: 25.6164
+218 --- 1_Stair_S_6  Distance: 6.34129
+218 --- 1_Stair_S_7  Distance: 27.5895
+218 --- 2_Stair_S_5  Distance: 25.6164
+218 --- 2_Stair_S_6  Distance: 6.34129
+218 --- 2_Stair_S_7  Distance: 27.5895
+218 --- 1_Stair_C_5  Distance: 17.6113
+218 --- 2_Stair_C_5  Distance: 17.6113
+218 --- 1_Stair_N_2  Distance: 19.562
+
+CurPoint: 118 Height: 0
+118 --- Center_Door_2  Distance: 23.2006
+118 --- North_Door_5  Distance: 25.1368
+118 --- North_Door_6  Distance: 12.4147
+118 --- 218  Distance: 21.46
+118 --- 1_Stair_S_6  Distance: 27.4898
+118 --- 1_Stair_S_7  Distance: 6.43506
+118 --- 2_Stair_S_6  Distance: 27.4898
+118 --- 2_Stair_S_7  Distance: 6.43506
+118 --- 1_Stair_C_5  Distance: 9.77544
+118 --- 2_Stair_C_5  Distance: 9.77544
+118 --- 1_Stair_N_2  Distance: 21.7934
+
+CurPoint: 301 Height: 9.6305
+301 --- 303  Distance: 15.4123
+301 --- 3_Stair_S_1  Distance: 9.51013
+301 --- 3_Stair_C_1  Distance: 15.592
+
+CurPoint: 303 Height: 9.01466
+303 --- 301  Distance: 15.4123
+303 --- 306  Distance: 15.6325
+303 --- 3_Stair_C_1  Distance: 8.16413
+
+CurPoint: 306 Height: 8.39003
+306 --- 303  Distance: 15.6325
+306 --- 307  Distance: 15.8527
+306 --- 3_Stair_S_2  Distance: 10.6914
+
+CurPoint: 307 Height: 7.7566
+307 --- 306  Distance: 15.8527
+307 --- 308  Distance: 15.9627
+307 --- 3_Stair_S_2  Distance: 5.83326
+307 --- 3_Stair_S_3  Distance: 10.6914
+307 --- 3_Stair_C_2  Distance: 7.99615
+
+CurPoint: 308 Height: 7.11877
+308 --- 307  Distance: 15.9627
+308 --- 311  Distance: 15.1921
+308 --- 3_Stair_S_3  Distance: 5.93521
+308 --- 3_Stair_C_2  Distance: 16.8405
+308 --- 3_Stair_C_3  Distance: 15.4973
+
+CurPoint: 311 Height: 6.51173
+311 --- 308  Distance: 15.1921
+311 --- 312  Distance: 15.8527
+311 --- 3_Stair_S_4  Distance: 10.3685
+311 --- 3_Stair_C_3  Distance: 8.13811
+
+CurPoint: 312 Height: 5.8783
+312 --- 311  Distance: 15.8527
+312 --- 314  Distance: 17.1737
+312 --- 3_Stair_S_4  Distance: 6.13996
+
+CurPoint: 314 Height: 5.19208
+314 --- 312  Distance: 17.1737
+314 --- 3_Stair_S_5  Distance: 10.4761
+314 --- 3_Stair_C_4  Distance: 7.92077
+
+CurPoint: 315 Height: 4.41349
+315 --- 316  Distance: 16.293
+315 --- 3_Stair_S_5  Distance: 9.51013
+315 --- 3_Stair_S_6  Distance: 10.5837
+
+CurPoint: 316 Height: 3.76246
+316 --- 315  Distance: 16.293
+316 --- 318  Distance: 15.8527
+316 --- 3_Stair_S_6  Distance: 6.34574
+
+CurPoint: 318 Height: 3.12903
+318 --- 316  Distance: 15.8527
+318 --- 3_Stair_S_7  Distance: 11.8786
+318 --- 3_Stair_C_5  Distance: 7.92077
+
+CurPoint: 320 Height: 1.99414
+320 --- 321  Distance: 17.1737
+320 --- 3_Stair_S_8  Distance: 11.4463
+320 --- 3_Stair_S_7  Distance: 16.88
+
+CurPoint: 321 Height: 1.30792
+321 --- 320  Distance: 17.1737
+321 --- 3_Stair_S_8  Distance: 6.34574
+321 --- 3_Stair_C_6  Distance: 8.3149
+
+CurPoint: 324 Height: 0.428153
+324 --- North_Door_8  Distance: 12.0766
+324 --- 325  Distance: 8.36668
+324 --- 1_Stair_C_7  Distance: 16.3524
+324 --- 2_Stair_C_7  Distance: 16.3524
+324 --- 3_Stair_C_7  Distance: 16.3524
+
+CurPoint: 325 Height: 0.0938421
+325 --- North_Door_8  Distance: 15.6521
+325 --- 324  Distance: 8.36668
+325 --- 1_Stair_S_10  Distance: 17.1942
+325 --- 2_Stair_S_10  Distance: 17.1942
+325 --- 3_Stair_S_10  Distance: 17.1942
+325 --- 1_Stair_C_7  Distance: 9.90044
+325 --- 2_Stair_C_7  Distance: 9.90044
+325 --- 3_Stair_C_7  Distance: 9.90044
+
+CurPoint: 401 Height: 14.6305
+401 --- 403  Distance: 15.4123
+401 --- 4_Stair_S_1  Distance: 9.51013
+401 --- 4_Stair_C_1  Distance: 15.592
+
+CurPoint: 403 Height: 14.0147
+403 --- 401  Distance: 15.4123
+403 --- 406  Distance: 15.6325
+403 --- 4_Stair_C_1  Distance: 8.16413
+
+CurPoint: 406 Height: 13.39
+406 --- 403  Distance: 15.6325
+406 --- 407  Distance: 15.8527
+406 --- 4_Stair_S_2  Distance: 10.6914
+
+CurPoint: 407 Height: 12.7566
+407 --- 406  Distance: 15.8527
+407 --- 408  Distance: 15.9627
+407 --- 4_Stair_S_2  Distance: 5.83326
+407 --- 4_Stair_S_3  Distance: 10.6914
+407 --- 4_Stair_C_2  Distance: 7.99615
+
+CurPoint: 408 Height: 12.1188
+408 --- 407  Distance: 15.9627
+408 --- 411  Distance: 15.1921
+408 --- 4_Stair_S_3  Distance: 5.93521
+408 --- 4_Stair_C_2  Distance: 16.8405
+408 --- 4_Stair_C_3  Distance: 15.4973
+
+CurPoint: 411 Height: 11.5117
+411 --- 408  Distance: 15.1921
+411 --- 412  Distance: 15.8527
+411 --- 4_Stair_S_4  Distance: 10.3685
+411 --- 4_Stair_C_3  Distance: 8.13811
+
+CurPoint: 412 Height: 10.8783
+412 --- 411  Distance: 15.8527
+412 --- 414  Distance: 17.1737
+412 --- 443  Distance: 17.6143
+412 --- 3_South_To_North4_1  Distance: 15.6075
+412 --- 4_South_To_North5_1  Distance: 8.62484
+412 --- 4_Stair_S_4  Distance: 6.13996
+
+CurPoint: 414 Height: 10.1921
+414 --- 412  Distance: 17.1737
+414 --- 3_South_To_North4_1  Distance: 8.76076
+414 --- 3_South_To_North4_2  Distance: 13.5559
+414 --- 4_Stair_S_5  Distance: 10.4761
+414 --- 4_Stair_C_4  Distance: 7.92077
+
+CurPoint: 415 Height: 9.41349
+415 --- 416  Distance: 16.293
+415 --- 3_South_To_North4_2  Distance: 11.6108
+415 --- 4_Stair_S_5  Distance: 9.51013
+415 --- 4_Stair_S_6  Distance: 10.5837
+
+CurPoint: 416 Height: 8.76246
+416 --- 415  Distance: 16.293
+416 --- 418  Distance: 15.8527
+416 --- 4_Stair_S_6  Distance: 6.34574
+
+CurPoint: 418 Height: 8.12903
+418 --- 416  Distance: 15.8527
+418 --- 419  Distance: 17.1737
+418 --- 4_Stair_S_7  Distance: 11.8786
+418 --- 4_Stair_C_5  Distance: 7.92077
+
+CurPoint: 419 Height: 7.44282
+419 --- 418  Distance: 17.1737
+419 --- 421  Distance: 11.229
+419 --- 4_Stair_S_7  Distance: 5.93521
+
+CurPoint: 421 Height: 6.99414
+421 --- 419  Distance: 11.229
+421 --- 422  Distance: 17.1737
+421 --- 4_Stair_S_8  Distance: 11.4463
+421 --- 4_Stair_S_7  Distance: 16.88
+
+CurPoint: 422 Height: 6.30792
+422 --- 421  Distance: 17.1737
+422 --- 4_Stair_S_8  Distance: 6.34574
+422 --- 4_Stair_C_6  Distance: 8.3149
+
+CurPoint: 425 Height: 5.49853
+425 --- 426  Distance: 15.4123
+425 --- 4_Stair_S_9  Distance: 17.3166
+
+CurPoint: 426 Height: 4.8827
+426 --- 425  Distance: 15.4123
+426 --- 4_Stair_S_9  Distance: 2.83389
+426 --- 4_Stair_S_10  Distance: 11.9868
+426 --- 4_Stair_C_7  Distance: 7.9475
+
+CurPoint: 5_WayPoint_1 Height: 19.6305
+5_WayPoint_1 --- 501  Distance: 15.4123
+5_WayPoint_1 --- 5_Stair_S_1  Distance: 9.51013
+5_WayPoint_1 --- 5_Stair_C_1  Distance: 15.592
+
+CurPoint: 501 Height: 19.0147
+501 --- 5_WayPoint_1  Distance: 15.4123
+501 --- 5_WayPoint_1  Distance: 15.6325
+501 --- 5_Stair_C_1  Distance: 8.16413
+
+CurPoint: 5_WayPoint_1 Height: 18.39
+5_WayPoint_1 --- 501  Distance: 15.6325
+5_WayPoint_1 --- 502  Distance: 15.8527
+5_WayPoint_1 --- 5_Stair_S_2  Distance: 10.6914
+
+CurPoint: 502 Height: 17.7566
+502 --- 5_WayPoint_1  Distance: 15.8527
+502 --- 503  Distance: 15.9627
+502 --- 5_Stair_S_2  Distance: 5.83326
+502 --- 5_Stair_S_3  Distance: 10.6914
+502 --- 5_Stair_C_2  Distance: 7.99615
+
+CurPoint: 503 Height: 17.1188
+503 --- 502  Distance: 15.9627
+503 --- 506  Distance: 15.1921
+503 --- 5_Stair_S_3  Distance: 5.93521
+503 --- 5_Stair_C_2  Distance: 16.8405
+503 --- 5_Stair_C_3  Distance: 15.4973
+
+CurPoint: 506 Height: 16.5117
+506 --- 503  Distance: 15.1921
+506 --- 507  Distance: 15.8527
+506 --- 5_Stair_S_4  Distance: 10.3685
+506 --- 5_Stair_C_3  Distance: 8.13811
+
+CurPoint: 507 Height: 15.8783
+507 --- 506  Distance: 15.8527
+507 --- 509  Distance: 17.1737
+507 --- 5_Stair_S_4  Distance: 6.13996
+
+CurPoint: 509 Height: 15.1921
+509 --- 507  Distance: 17.1737
+509 --- 5_Stair_S_5  Distance: 10.4761
+509 --- 5_Stair_C_4  Distance: 7.92077
+
+CurPoint: 510 Height: 14.4135
+510 --- 511  Distance: 16.293
+510 --- 5_Stair_S_5  Distance: 9.51013
+510 --- 5_Stair_S_6  Distance: 10.5837
+
+CurPoint: 511 Height: 13.7625
+511 --- 510  Distance: 16.293
+511 --- 513  Distance: 15.8527
+511 --- 5_Stair_S_6  Distance: 6.34574
+
+CurPoint: 513 Height: 13.129
+513 --- 511  Distance: 15.8527
+513 --- 514  Distance: 17.1737
+513 --- 5_Stair_S_7  Distance: 11.8786
+513 --- 5_Stair_C_5  Distance: 7.92077
+
+CurPoint: 514 Height: 12.4428
+514 --- 513  Distance: 17.1737
+514 --- 516  Distance: 11.229
+514 --- 5_Stair_S_7  Distance: 5.93521
+
+CurPoint: 516 Height: 11.9941
+516 --- 514  Distance: 11.229
+516 --- 517  Distance: 17.1737
+516 --- 5_Stair_S_8  Distance: 11.4463
+516 --- 5_Stair_S_7  Distance: 16.88
+
+CurPoint: 517 Height: 11.3079
+517 --- 516  Distance: 17.1737
+517 --- 5_Stair_S_8  Distance: 6.34574
+517 --- 5_Stair_C_6  Distance: 8.3149
+
+CurPoint: 520 Height: 10.4985
+520 --- 521  Distance: 15.4123
+520 --- 5_Stair_S_9  Distance: 17.3166
+
+CurPoint: 521 Height: 9.8827
+521 --- 520  Distance: 15.4123
+521 --- 5_Stair_S_9  Distance: 2.83389
+521 --- 5_Stair_S_10  Distance: 11.9868
+
+CurPoint: 601 Height: 20.8783
+601 --- 6_WayPoint_1  Distance: 17.1737
+601 --- 537  Distance: 17.6143
+
+CurPoint: 6_WayPoint_1 Height: 20.1921
+6_WayPoint_1 --- 601  Distance: 17.1737
+6_WayPoint_1 --- 6_Stair_S_5  Distance: 10.4761
+6_WayPoint_1 --- 6_Stair_C_4  Distance: 7.92077
+
+CurPoint: 602 Height: 19.4135
+602 --- 603  Distance: 16.293
+602 --- 6_Stair_S_5  Distance: 9.51013
+602 --- 6_Stair_S_6  Distance: 10.5837
+
+CurPoint: 603 Height: 18.7625
+603 --- 602  Distance: 16.293
+603 --- 605  Distance: 15.8527
+603 --- 6_Stair_S_6  Distance: 6.34574
+
+CurPoint: 605 Height: 18.129
+605 --- 603  Distance: 15.8527
+605 --- 606  Distance: 17.1737
+605 --- 6_Stair_S_7  Distance: 11.8786
+605 --- 6_Stair_C_5  Distance: 7.92077
+
+CurPoint: 606 Height: 17.4428
+606 --- 605  Distance: 17.1737
+606 --- 608  Distance: 11.229
+606 --- 6_Stair_S_7  Distance: 5.93521
+
+CurPoint: 608 Height: 16.9941
+608 --- 606  Distance: 11.229
+608 --- 609  Distance: 17.1737
+608 --- 6_Stair_S_8  Distance: 11.4463
+608 --- 6_Stair_S_7  Distance: 16.88
+
+CurPoint: 609 Height: 16.3079
+609 --- 608  Distance: 17.1737
+609 --- 6_Stair_S_8  Distance: 6.34574
+609 --- 6_Stair_C_6  Distance: 8.3149
+
+CurPoint: 612 Height: 15.4985
+612 --- 613  Distance: 15.4123
+612 --- 6_Stair_S_9  Distance: 17.3166
+
+CurPoint: 613 Height: 14.8827
+613 --- 612  Distance: 15.4123
+613 --- 6_Stair_S_9  Distance: 2.83389
+613 --- 6_Stair_S_10  Distance: 11.9868
+
+CurPoint: 701 Height: 22.4428
+701 --- 7_WayPoint_1  Distance: 11.229
+
+CurPoint: 7_WayPoint_1 Height: 21.9941
+7_WayPoint_1 --- 701  Distance: 11.229
+7_WayPoint_1 --- 703  Distance: 17.1737
+7_WayPoint_1 --- 7_Stair_S_8  Distance: 11.4463
+
+CurPoint: 703 Height: 21.3079
+703 --- 7_WayPoint_1  Distance: 17.1737
+703 --- 7_Stair_S_8  Distance: 6.34574
+703 --- 7_Stair_C_6  Distance: 8.3149
+
+CurPoint: 706 Height: 20.4985
+706 --- 707  Distance: 15.4123
+706 --- 7_Stair_S_9  Distance: 17.3166
+
+CurPoint: 707 Height: 19.8827
+707 --- 706  Distance: 15.4123
+707 --- 7_Stair_S_9  Distance: 2.83389
+707 --- 7_Stair_S_10  Distance: 11.9868
+
+CurPoint: 442 Height: 10
+442 --- 443  Distance: 23.98
+442 --- 4_South_To_North5_1  Distance: 22.2287
+442 --- 3_Stair_N_1  Distance: 7.92
+
+CurPoint: 443 Height: 10
+443 --- 412  Distance: 17.6143
+443 --- 442  Distance: 23.98
+443 --- 437  Distance: 26.62
+443 --- 3_South_To_North4_1  Distance: 16.0042
+443 --- 3_South_To_North4_2  Distance: 29.1473
+443 --- 4_South_To_North5_1  Distance: 10.4402
+443 --- 3_Stair_N_1  Distance: 16.06
+
+CurPoint: 437 Height: 10
+437 --- 443  Distance: 26.62
+437 --- 434  Distance: 26.51
+437 --- 3_South_To_North4_1  Distance: 16.8942
+437 --- 3_South_To_North4_2  Distance: 9.7
+437 --- 4_Stair_C_4  Distance: 13.9123
+
+CurPoint: 434 Height: 10
+434 --- 437  Distance: 26.51
+434 --- 433  Distance: 23.76
+434 --- 3_South_To_North4_2  Distance: 27.39
+434 --- 3_Stair_N_2  Distance: 7.7
+
+CurPoint: 433 Height: 10
+433 --- 434  Distance: 23.76
+433 --- 4_South_To_North4_1  Distance: 15.4831
+433 --- 3_Stair_N_2  Distance: 16.06
+
+CurPoint: 3_South_To_North4_1 Height: 10
+3_South_To_North4_1 --- 412  Distance: 15.6075
+3_South_To_North4_1 --- 414  Distance: 8.76076
+3_South_To_North4_1 --- 443  Distance: 16.0042
+3_South_To_North4_1 --- 437  Distance: 16.8942
+3_South_To_North4_1 --- 3_South_To_North4_2  Distance: 14.74
+3_South_To_North4_1 --- 4_South_To_North5_1  Distance: 16.72
+3_South_To_North4_1 --- 4_Stair_S_5  Distance: 17.2635
+3_South_To_North4_1 --- 4_Stair_C_4  Distance: 3.85457
+
+CurPoint: 3_South_To_North4_2 Height: 10
+3_South_To_North4_2 --- 414  Distance: 13.5559
+3_South_To_North4_2 --- 415  Distance: 11.6108
+3_South_To_North4_2 --- 443  Distance: 29.1473
+3_South_To_North4_2 --- 437  Distance: 9.7
+3_South_To_North4_2 --- 434  Distance: 27.39
+3_South_To_North4_2 --- 3_South_To_North4_1  Distance: 14.74
+3_South_To_North4_2 --- 4_Stair_S_5  Distance: 10.1715
+3_South_To_North4_2 --- 4_Stair_C_4  Distance: 10.8916
+
+CurPoint: 538 Height: 20
+538 --- 537  Distance: 23.98
+538 --- 5_Stair_N_1  Distance: 7.92
+
+CurPoint: 537 Height: 20
+537 --- 601  Distance: 17.6143
+537 --- 538  Distance: 23.98
+537 --- 532  Distance: 26.62
+537 --- 5_Stair_N_1  Distance: 16.06
+
+CurPoint: 532 Height: 20
+532 --- 537  Distance: 26.62
+532 --- 529  Distance: 26.51
+532 --- 6_Stair_C_4  Distance: 13.9123
+
+CurPoint: 529 Height: 20
+529 --- 532  Distance: 26.51
+529 --- 528  Distance: 23.76
+529 --- 5_Stair_N_2  Distance: 7.7
+
+CurPoint: 528 Height: 20
+528 --- 529  Distance: 23.76
+528 --- 5_South_To_North5_1  Distance: 15.4831
+528 --- 5_Stair_N_2  Distance: 16.06
+
+CurPoint: 4_South_To_North4_1 Height: 10
+4_South_To_North4_1 --- 433  Distance: 15.4831
+4_South_To_North4_1 --- 3_Stair_N_2  Distance: 29.7708
+
+CurPoint: 4_South_To_North5_1 Height: 10
+4_South_To_North5_1 --- 412  Distance: 8.62484
+4_South_To_North5_1 --- 442  Distance: 22.2287
+4_South_To_North5_1 --- 443  Distance: 10.4402
+4_South_To_North5_1 --- 3_South_To_North4_1  Distance: 16.72
+4_South_To_North5_1 --- 4_Stair_S_4  Distance: 10.4834
+4_South_To_North5_1 --- 3_Stair_N_1  Distance: 15.4831
+
+CurPoint: 5_South_To_North5_1 Height: 20
+5_South_To_North5_1 --- 528  Distance: 15.4831
+5_South_To_North5_1 --- 5_Stair_N_2  Distance: 29.7708
+
+CurPoint: 1_Stair_S_8 Height: 0
+1_Stair_S_8 --- Center_Door_2  Distance: 13.0785
+1_Stair_S_8 --- North_Door_7  Distance: 14.8279
+1_Stair_S_8 --- North_Door_8  Distance: 29.764
+1_Stair_S_8 --- 2_Stair_S_8  Distance: 0
+1_Stair_S_8 --- 3_Stair_S_8  Distance: 1.54545
+1_Stair_S_8 --- 1_Stair_C_6  Distance: 13.2121
+1_Stair_S_8 --- 2_Stair_C_6  Distance: 13.2121
+1_Stair_S_8 --- 3_Stair_C_6  Distance: 13.2671
+
+CurPoint: 1_Stair_S_10 Height: 0
+1_Stair_S_10 --- North_Door_9  Distance: 14.6179
+1_Stair_S_10 --- 325  Distance: 17.1942
+1_Stair_S_10 --- 2_Stair_S_10  Distance: 0
+1_Stair_S_10 --- 3_Stair_S_10  Distance: 0
+1_Stair_S_10 --- 4_Stair_S_10  Distance: 4.41202
+1_Stair_S_10 --- 1_Stair_C_7  Distance: 15.0417
+1_Stair_S_10 --- 2_Stair_C_7  Distance: 15.0417
+1_Stair_S_10 --- 3_Stair_C_7  Distance: 15.0417
+
+CurPoint: 1_Stair_S_5 Height: 0
+1_Stair_S_5 --- Center_Door_1  Distance: 28.416
+1_Stair_S_5 --- North_Door_4  Distance: 17.5985
+1_Stair_S_5 --- North_Door_5  Distance: 28.6099
+1_Stair_S_5 --- 216  Distance: 10.4699
+1_Stair_S_5 --- 217  Distance: 9.50295
+1_Stair_S_5 --- 218  Distance: 25.6164
+1_Stair_S_5 --- 1_Stair_S_6  Distance: 19.58
+1_Stair_S_5 --- 2_Stair_S_5  Distance: 0
+1_Stair_S_5 --- 2_Stair_S_6  Distance: 19.58
+1_Stair_S_5 --- 3_Stair_S_5  Distance: 4.78299
+1_Stair_S_5 --- 1_Stair_C_4  Distance: 14.326
+1_Stair_S_5 --- 2_Stair_C_4  Distance: 14.3272
+
+CurPoint: 1_Stair_S_6 Height: 0
+1_Stair_S_6 --- North_Door_5  Distance: 15.1124
+1_Stair_S_6 --- 217  Distance: 10.5756
+1_Stair_S_6 --- 218  Distance: 6.34129
+1_Stair_S_6 --- 118  Distance: 27.4898
+1_Stair_S_6 --- 1_Stair_S_5  Distance: 19.58
+1_Stair_S_6 --- 2_Stair_S_5  Distance: 19.58
+1_Stair_S_6 --- 2_Stair_S_6  Distance: 0
+1_Stair_S_6 --- 3_Stair_S_6  Distance: 4
+
+CurPoint: 1_Stair_S_7 Height: 0
+1_Stair_S_7 --- Center_Door_2  Distance: 18.0199
+1_Stair_S_7 --- North_Door_6  Distance: 14.404
+1_Stair_S_7 --- 218  Distance: 27.5895
+1_Stair_S_7 --- 118  Distance: 6.43506
+1_Stair_S_7 --- 2_Stair_S_7  Distance: 0
+1_Stair_S_7 --- 3_Stair_S_7  Distance: 2.66276
+1_Stair_S_7 --- 1_Stair_C_5  Distance: 15.5355
+1_Stair_S_7 --- 2_Stair_C_5  Distance: 15.5355
+
+CurPoint: 1_Stair_S_1 Height: 0
+1_Stair_S_1 --- 101  Distance: 9.50295
+1_Stair_S_1 --- 103  Distance: 24.7398
+1_Stair_S_1 --- 2_Stair_S_1  Distance: 5
+
+CurPoint: 1_Stair_S_2 Height: 0
+1_Stair_S_2 --- 103  Distance: 26.1644
+1_Stair_S_2 --- 105  Distance: 10.6832
+1_Stair_S_2 --- 106  Distance: 5.82928
+1_Stair_S_2 --- 107  Distance: 21.4552
+1_Stair_S_2 --- North_Door_1  Distance: 27.2824
+1_Stair_S_2 --- 1_Stair_S_3  Distance: 15.84
+1_Stair_S_2 --- 2_Stair_S_2  Distance: 2.97214
+1_Stair_S_2 --- 1_Stair_C_2  Distance: 12.0391
+
+CurPoint: 1_Stair_S_3 Height: 0
+1_Stair_S_3 --- 105  Distance: 26.3836
+1_Stair_S_3 --- 106  Distance: 10.6832
+1_Stair_S_3 --- 107  Distance: 5.93114
+1_Stair_S_3 --- North_Door_2  Distance: 19.3583
+1_Stair_S_3 --- 1_Stair_S_2  Distance: 15.84
+1_Stair_S_3 --- 2_Stair_S_3  Distance: 2.33871
+1_Stair_S_3 --- 1_Stair_C_2  Distance: 13.7928
+
+CurPoint: 1_Stair_S_4 Height: 0
+1_Stair_S_4 --- 107  Distance: 25.3972
+1_Stair_S_4 --- Center_Door_1  Distance: 8.6838
+1_Stair_S_4 --- North_Door_2  Distance: 22.5891
+1_Stair_S_4 --- North_Door_3  Distance: 14.1617
+1_Stair_S_4 --- North_Door_4  Distance: 26.7204
+1_Stair_S_4 --- 2_Stair_S_4  Distance: 1.10704
+1_Stair_S_4 --- 1_Stair_C_3  Distance: 15.7029
+1_Stair_S_4 --- 2_Stair_C_3  Distance: 15.7828
+
+CurPoint: 2_Stair_S_8 Height: 0
+2_Stair_S_8 --- Center_Door_2  Distance: 13.0785
+2_Stair_S_8 --- North_Door_7  Distance: 14.8279
+2_Stair_S_8 --- North_Door_8  Distance: 29.764
+2_Stair_S_8 --- 1_Stair_S_8  Distance: 0
+2_Stair_S_8 --- 3_Stair_S_8  Distance: 1.54545
+2_Stair_S_8 --- 1_Stair_C_6  Distance: 13.2121
+2_Stair_S_8 --- 2_Stair_C_6  Distance: 13.2121
+2_Stair_S_8 --- 3_Stair_C_6  Distance: 13.2671
+
+CurPoint: 2_Stair_S_10 Height: 0
+2_Stair_S_10 --- North_Door_9  Distance: 14.6179
+2_Stair_S_10 --- 325  Distance: 17.1942
+2_Stair_S_10 --- 1_Stair_S_10  Distance: 0
+2_Stair_S_10 --- 3_Stair_S_10  Distance: 0
+2_Stair_S_10 --- 4_Stair_S_10  Distance: 4.41202
+2_Stair_S_10 --- 1_Stair_C_7  Distance: 15.0417
+2_Stair_S_10 --- 2_Stair_C_7  Distance: 15.0417
+2_Stair_S_10 --- 3_Stair_C_7  Distance: 15.0417
+
+CurPoint: 2_Stair_S_5 Height: 0
+2_Stair_S_5 --- Center_Door_1  Distance: 28.416
+2_Stair_S_5 --- North_Door_4  Distance: 17.5985
+2_Stair_S_5 --- North_Door_5  Distance: 28.6099
+2_Stair_S_5 --- 216  Distance: 10.4699
+2_Stair_S_5 --- 217  Distance: 9.50295
+2_Stair_S_5 --- 218  Distance: 25.6164
+2_Stair_S_5 --- 1_Stair_S_5  Distance: 0
+2_Stair_S_5 --- 1_Stair_S_6  Distance: 19.58
+2_Stair_S_5 --- 2_Stair_S_6  Distance: 19.58
+2_Stair_S_5 --- 3_Stair_S_5  Distance: 4.78299
+2_Stair_S_5 --- 1_Stair_C_4  Distance: 14.326
+2_Stair_S_5 --- 2_Stair_C_4  Distance: 14.3272
+
+CurPoint: 2_Stair_S_6 Height: 0
+2_Stair_S_6 --- North_Door_5  Distance: 15.1124
+2_Stair_S_6 --- 217  Distance: 10.5756
+2_Stair_S_6 --- 218  Distance: 6.34129
+2_Stair_S_6 --- 118  Distance: 27.4898
+2_Stair_S_6 --- 1_Stair_S_5  Distance: 19.58
+2_Stair_S_6 --- 1_Stair_S_6  Distance: 0
+2_Stair_S_6 --- 2_Stair_S_5  Distance: 19.58
+2_Stair_S_6 --- 3_Stair_S_6  Distance: 4
+
+CurPoint: 2_Stair_S_7 Height: 0
+2_Stair_S_7 --- Center_Door_2  Distance: 18.0199
+2_Stair_S_7 --- North_Door_6  Distance: 14.404
+2_Stair_S_7 --- 218  Distance: 27.5895
+2_Stair_S_7 --- 118  Distance: 6.43506
+2_Stair_S_7 --- 1_Stair_S_7  Distance: 0
+2_Stair_S_7 --- 3_Stair_S_7  Distance: 2.66276
+2_Stair_S_7 --- 1_Stair_C_5  Distance: 15.5355
+2_Stair_S_7 --- 2_Stair_C_5  Distance: 15.5355
+
+CurPoint: 2_Stair_S_1 Height: 5
+2_Stair_S_1 --- 201  Distance: 9.51013
+2_Stair_S_1 --- 1_Stair_S_1  Distance: 5
+2_Stair_S_1 --- 3_Stair_S_1  Distance: 5
+
+CurPoint: 2_Stair_S_2 Height: 2.97214
+2_Stair_S_2 --- 206  Distance: 10.6914
+2_Stair_S_2 --- 207  Distance: 5.83326
+2_Stair_S_2 --- 1_Stair_S_2  Distance: 2.97214
+2_Stair_S_2 --- 2_Stair_S_3  Distance: 15.8527
+2_Stair_S_2 --- 3_Stair_S_2  Distance: 5
+2_Stair_S_2 --- 2_Stair_C_2  Distance: 12.0419
+
+CurPoint: 2_Stair_S_3 Height: 2.33871
+2_Stair_S_3 --- 207  Distance: 10.6914
+2_Stair_S_3 --- 208  Distance: 5.93521
+2_Stair_S_3 --- 1_Stair_S_3  Distance: 2.33871
+2_Stair_S_3 --- 2_Stair_S_2  Distance: 15.8527
+2_Stair_S_3 --- 3_Stair_S_3  Distance: 5
+2_Stair_S_3 --- 2_Stair_C_2  Distance: 13.7979
+
+CurPoint: 2_Stair_S_4 Height: 1.10704
+2_Stair_S_4 --- Center_Door_1  Distance: 8.75408
+2_Stair_S_4 --- North_Door_3  Distance: 14.2049
+2_Stair_S_4 --- 211  Distance: 10.3685
+2_Stair_S_4 --- 1_Stair_S_4  Distance: 1.10704
+2_Stair_S_4 --- 3_Stair_S_4  Distance: 5
+2_Stair_S_4 --- 1_Stair_C_3  Distance: 15.7418
+2_Stair_S_4 --- 2_Stair_C_3  Distance: 15.7102
+
+CurPoint: 3_Stair_S_8 Height: 1.54545
+3_Stair_S_8 --- 320  Distance: 11.4463
+3_Stair_S_8 --- 321  Distance: 6.34574
+3_Stair_S_8 --- 1_Stair_S_8  Distance: 1.54545
+3_Stair_S_8 --- 2_Stair_S_8  Distance: 1.54545
+3_Stair_S_8 --- 4_Stair_S_8  Distance: 5
+3_Stair_S_8 --- 1_Stair_C_6  Distance: 13.3022
+3_Stair_S_8 --- 2_Stair_C_6  Distance: 13.3022
+3_Stair_S_8 --- 3_Stair_C_6  Distance: 13.2165
+
+CurPoint: 3_Stair_S_10 Height: 0
+3_Stair_S_10 --- North_Door_9  Distance: 14.6179
+3_Stair_S_10 --- 325  Distance: 17.1942
+3_Stair_S_10 --- 1_Stair_S_10  Distance: 0
+3_Stair_S_10 --- 2_Stair_S_10  Distance: 0
+3_Stair_S_10 --- 4_Stair_S_10  Distance: 4.41202
+3_Stair_S_10 --- 1_Stair_C_7  Distance: 15.0417
+3_Stair_S_10 --- 2_Stair_C_7  Distance: 15.0417
+3_Stair_S_10 --- 3_Stair_C_7  Distance: 15.0417
+
+CurPoint: 3_Stair_S_5 Height: 4.78299
+3_Stair_S_5 --- 314  Distance: 10.4761
+3_Stair_S_5 --- 315  Distance: 9.51013
+3_Stair_S_5 --- 1_Stair_S_5  Distance: 4.78299
+3_Stair_S_5 --- 2_Stair_S_5  Distance: 4.78299
+3_Stair_S_5 --- 3_Stair_S_6  Distance: 19.5956
+3_Stair_S_5 --- 4_Stair_S_5  Distance: 5
+3_Stair_S_5 --- 3_Stair_C_4  Distance: 14.3317
+
+CurPoint: 3_Stair_S_6 Height: 4
+3_Stair_S_6 --- 315  Distance: 10.5837
+3_Stair_S_6 --- 316  Distance: 6.34574
+3_Stair_S_6 --- 1_Stair_S_6  Distance: 4
+3_Stair_S_6 --- 2_Stair_S_6  Distance: 4
+3_Stair_S_6 --- 3_Stair_S_5  Distance: 19.5956
+3_Stair_S_6 --- 4_Stair_S_6  Distance: 5
+
+CurPoint: 3_Stair_S_7 Height: 2.66276
+3_Stair_S_7 --- 318  Distance: 11.8786
+3_Stair_S_7 --- 320  Distance: 16.88
+3_Stair_S_7 --- 1_Stair_S_7  Distance: 2.66276
+3_Stair_S_7 --- 2_Stair_S_7  Distance: 2.66276
+3_Stair_S_7 --- 4_Stair_S_7  Distance: 5
+3_Stair_S_7 --- 3_Stair_C_5  Distance: 15.5427
+
+CurPoint: 3_Stair_S_1 Height: 10
+3_Stair_S_1 --- 301  Distance: 9.51013
+3_Stair_S_1 --- 2_Stair_S_1  Distance: 5
+3_Stair_S_1 --- 4_Stair_S_1  Distance: 5
+
+CurPoint: 3_Stair_S_2 Height: 7.97214
+3_Stair_S_2 --- 306  Distance: 10.6914
+3_Stair_S_2 --- 307  Distance: 5.83326
+3_Stair_S_2 --- 2_Stair_S_2  Distance: 5
+3_Stair_S_2 --- 3_Stair_S_3  Distance: 15.8527
+3_Stair_S_2 --- 4_Stair_S_2  Distance: 5
+3_Stair_S_2 --- 3_Stair_C_2  Distance: 12.0419
+
+CurPoint: 3_Stair_S_3 Height: 7.33871
+3_Stair_S_3 --- 307  Distance: 10.6914
+3_Stair_S_3 --- 308  Distance: 5.93521
+3_Stair_S_3 --- 2_Stair_S_3  Distance: 5
+3_Stair_S_3 --- 3_Stair_S_2  Distance: 15.8527
+3_Stair_S_3 --- 4_Stair_S_3  Distance: 5
+3_Stair_S_3 --- 3_Stair_C_2  Distance: 13.7979
+
+CurPoint: 3_Stair_S_4 Height: 6.10704
+3_Stair_S_4 --- 311  Distance: 10.3685
+3_Stair_S_4 --- 312  Distance: 6.13996
+3_Stair_S_4 --- 2_Stair_S_4  Distance: 5
+3_Stair_S_4 --- 4_Stair_S_4  Distance: 5
+3_Stair_S_4 --- 3_Stair_C_3  Distance: 15.7102
+
+CurPoint: 4_Stair_S_8 Height: 6.54545
+4_Stair_S_8 --- 421  Distance: 11.4463
+4_Stair_S_8 --- 422  Distance: 6.34574
+4_Stair_S_8 --- 3_Stair_S_8  Distance: 5
+4_Stair_S_8 --- 5_Stair_S_8  Distance: 5
+4_Stair_S_8 --- 4_Stair_C_6  Distance: 13.2165
+
+CurPoint: 4_Stair_S_9 Height: 4.81232
+4_Stair_S_9 --- 425  Distance: 17.3166
+4_Stair_S_9 --- 426  Distance: 2.83389
+4_Stair_S_9 --- 4_Stair_S_10  Distance: 10.018
+4_Stair_S_9 --- 5_Stair_S_9  Distance: 5
+4_Stair_S_9 --- 4_Stair_C_7  Distance: 10.1996
+
+CurPoint: 4_Stair_S_10 Height: 4.41202
+4_Stair_S_10 --- 426  Distance: 11.9868
+4_Stair_S_10 --- 1_Stair_S_10  Distance: 4.41202
+4_Stair_S_10 --- 2_Stair_S_10  Distance: 4.41202
+4_Stair_S_10 --- 3_Stair_S_10  Distance: 4.41202
+4_Stair_S_10 --- 4_Stair_S_9  Distance: 10.018
+4_Stair_S_10 --- 5_Stair_S_10  Distance: 5
+4_Stair_S_10 --- 4_Stair_C_7  Distance: 15.0482
+
+CurPoint: 4_Stair_S_5 Height: 9.78299
+4_Stair_S_5 --- 414  Distance: 10.4761
+4_Stair_S_5 --- 415  Distance: 9.51013
+4_Stair_S_5 --- 3_South_To_North4_1  Distance: 17.2635
+4_Stair_S_5 --- 3_South_To_North4_2  Distance: 10.1715
+4_Stair_S_5 --- 3_Stair_S_5  Distance: 5
+4_Stair_S_5 --- 4_Stair_S_6  Distance: 19.5956
+4_Stair_S_5 --- 5_Stair_S_5  Distance: 5
+4_Stair_S_5 --- 4_Stair_C_4  Distance: 14.3317
+
+CurPoint: 4_Stair_S_6 Height: 9
+4_Stair_S_6 --- 415  Distance: 10.5837
+4_Stair_S_6 --- 416  Distance: 6.34574
+4_Stair_S_6 --- 3_Stair_S_6  Distance: 5
+4_Stair_S_6 --- 4_Stair_S_5  Distance: 19.5956
+4_Stair_S_6 --- 5_Stair_S_6  Distance: 5
+
+CurPoint: 4_Stair_S_7 Height: 7.66276
+4_Stair_S_7 --- 418  Distance: 11.8786
+4_Stair_S_7 --- 419  Distance: 5.93521
+4_Stair_S_7 --- 421  Distance: 16.88
+4_Stair_S_7 --- 3_Stair_S_7  Distance: 5
+4_Stair_S_7 --- 5_Stair_S_7  Distance: 5
+4_Stair_S_7 --- 4_Stair_C_5  Distance: 15.5427
+
+CurPoint: 4_Stair_S_1 Height: 15
+4_Stair_S_1 --- 401  Distance: 9.51013
+4_Stair_S_1 --- 3_Stair_S_1  Distance: 5
+4_Stair_S_1 --- 5_Stair_S_1  Distance: 5
+
+CurPoint: 4_Stair_S_2 Height: 12.9721
+4_Stair_S_2 --- 406  Distance: 10.6914
+4_Stair_S_2 --- 407  Distance: 5.83326
+4_Stair_S_2 --- 3_Stair_S_2  Distance: 5
+4_Stair_S_2 --- 4_Stair_S_3  Distance: 15.8527
+4_Stair_S_2 --- 5_Stair_S_2  Distance: 5
+4_Stair_S_2 --- 4_Stair_C_2  Distance: 12.0419
+
+CurPoint: 4_Stair_S_3 Height: 12.3387
+4_Stair_S_3 --- 407  Distance: 10.6914
+4_Stair_S_3 --- 408  Distance: 5.93521
+4_Stair_S_3 --- 3_Stair_S_3  Distance: 5
+4_Stair_S_3 --- 4_Stair_S_2  Distance: 15.8527
+4_Stair_S_3 --- 5_Stair_S_3  Distance: 5
+4_Stair_S_3 --- 4_Stair_C_2  Distance: 13.7979
+
+CurPoint: 4_Stair_S_4 Height: 11.107
+4_Stair_S_4 --- 411  Distance: 10.3685
+4_Stair_S_4 --- 412  Distance: 6.13996
+4_Stair_S_4 --- 4_South_To_North5_1  Distance: 10.4834
+4_Stair_S_4 --- 3_Stair_S_4  Distance: 5
+4_Stair_S_4 --- 5_Stair_S_4  Distance: 5
+4_Stair_S_4 --- 4_Stair_C_3  Distance: 15.7102
+
+CurPoint: 5_Stair_S_8 Height: 11.5455
+5_Stair_S_8 --- 516  Distance: 11.4463
+5_Stair_S_8 --- 517  Distance: 6.34574
+5_Stair_S_8 --- 4_Stair_S_8  Distance: 5
+5_Stair_S_8 --- 6_Stair_S_8  Distance: 5
+5_Stair_S_8 --- 5_Stair_C_6  Distance: 13.2165
+
+CurPoint: 5_Stair_S_9 Height: 9.81232
+5_Stair_S_9 --- 520  Distance: 17.3166
+5_Stair_S_9 --- 521  Distance: 2.83389
+5_Stair_S_9 --- 4_Stair_S_9  Distance: 5
+5_Stair_S_9 --- 5_Stair_S_10  Distance: 10.018
+5_Stair_S_9 --- 6_Stair_S_9  Distance: 5
+
+CurPoint: 5_Stair_S_10 Height: 9.41202
+5_Stair_S_10 --- 521  Distance: 11.9868
+5_Stair_S_10 --- 4_Stair_S_10  Distance: 5
+5_Stair_S_10 --- 5_Stair_S_9  Distance: 10.018
+5_Stair_S_10 --- 6_Stair_S_10  Distance: 5
+
+CurPoint: 5_Stair_S_5 Height: 14.783
+5_Stair_S_5 --- 509  Distance: 10.4761
+5_Stair_S_5 --- 510  Distance: 9.51013
+5_Stair_S_5 --- 4_Stair_S_5  Distance: 5
+5_Stair_S_5 --- 5_Stair_S_6  Distance: 19.5956
+5_Stair_S_5 --- 6_Stair_S_5  Distance: 5
+5_Stair_S_5 --- 5_Stair_C_4  Distance: 14.3317
+
+CurPoint: 5_Stair_S_6 Height: 14
+5_Stair_S_6 --- 510  Distance: 10.5837
+5_Stair_S_6 --- 511  Distance: 6.34574
+5_Stair_S_6 --- 4_Stair_S_6  Distance: 5
+5_Stair_S_6 --- 5_Stair_S_5  Distance: 19.5956
+5_Stair_S_6 --- 6_Stair_S_6  Distance: 5
+
+CurPoint: 5_Stair_S_7 Height: 12.6628
+5_Stair_S_7 --- 513  Distance: 11.8786
+5_Stair_S_7 --- 514  Distance: 5.93521
+5_Stair_S_7 --- 516  Distance: 16.88
+5_Stair_S_7 --- 4_Stair_S_7  Distance: 5
+5_Stair_S_7 --- 6_Stair_S_7  Distance: 5
+5_Stair_S_7 --- 5_Stair_C_5  Distance: 15.5427
+
+CurPoint: 5_Stair_S_1 Height: 20
+5_Stair_S_1 --- 5_WayPoint_1  Distance: 9.51013
+5_Stair_S_1 --- 4_Stair_S_1  Distance: 5
+
+CurPoint: 5_Stair_S_2 Height: 17.9721
+5_Stair_S_2 --- 5_WayPoint_1  Distance: 10.6914
+5_Stair_S_2 --- 502  Distance: 5.83326
+5_Stair_S_2 --- 4_Stair_S_2  Distance: 5
+5_Stair_S_2 --- 5_Stair_S_3  Distance: 15.8527
+5_Stair_S_2 --- 5_Stair_C_2  Distance: 12.0419
+
+CurPoint: 5_Stair_S_3 Height: 17.3387
+5_Stair_S_3 --- 502  Distance: 10.6914
+5_Stair_S_3 --- 503  Distance: 5.93521
+5_Stair_S_3 --- 4_Stair_S_3  Distance: 5
+5_Stair_S_3 --- 5_Stair_S_2  Distance: 15.8527
+5_Stair_S_3 --- 5_Stair_C_2  Distance: 13.7979
+
+CurPoint: 5_Stair_S_4 Height: 16.107
+5_Stair_S_4 --- 506  Distance: 10.3685
+5_Stair_S_4 --- 507  Distance: 6.13996
+5_Stair_S_4 --- 4_Stair_S_4  Distance: 5
+5_Stair_S_4 --- 5_Stair_C_3  Distance: 15.7102
+
+CurPoint: 6_Stair_S_8 Height: 16.5455
+6_Stair_S_8 --- 608  Distance: 11.4463
+6_Stair_S_8 --- 609  Distance: 6.34574
+6_Stair_S_8 --- 5_Stair_S_8  Distance: 5
+6_Stair_S_8 --- 7_Stair_S_8  Distance: 5
+6_Stair_S_8 --- 6_Stair_C_6  Distance: 13.2165
+
+CurPoint: 6_Stair_S_9 Height: 14.8123
+6_Stair_S_9 --- 612  Distance: 17.3166
+6_Stair_S_9 --- 613  Distance: 2.83389
+6_Stair_S_9 --- 5_Stair_S_9  Distance: 5
+6_Stair_S_9 --- 6_Stair_S_10  Distance: 10.018
+6_Stair_S_9 --- 7_Stair_S_9  Distance: 5
+
+CurPoint: 6_Stair_S_10 Height: 14.412
+6_Stair_S_10 --- 613  Distance: 11.9868
+6_Stair_S_10 --- 5_Stair_S_10  Distance: 5
+6_Stair_S_10 --- 6_Stair_S_9  Distance: 10.018
+6_Stair_S_10 --- 7_Stair_S_10  Distance: 5
+
+CurPoint: 6_Stair_S_5 Height: 19.783
+6_Stair_S_5 --- 6_WayPoint_1  Distance: 10.4761
+6_Stair_S_5 --- 602  Distance: 9.51013
+6_Stair_S_5 --- 5_Stair_S_5  Distance: 5
+6_Stair_S_5 --- 6_Stair_S_6  Distance: 19.5956
+6_Stair_S_5 --- 6_Stair_C_4  Distance: 14.3317
+
+CurPoint: 6_Stair_S_6 Height: 19
+6_Stair_S_6 --- 602  Distance: 10.5837
+6_Stair_S_6 --- 603  Distance: 6.34574
+6_Stair_S_6 --- 5_Stair_S_6  Distance: 5
+6_Stair_S_6 --- 6_Stair_S_5  Distance: 19.5956
+
+CurPoint: 6_Stair_S_7 Height: 17.6628
+6_Stair_S_7 --- 605  Distance: 11.8786
+6_Stair_S_7 --- 606  Distance: 5.93521
+6_Stair_S_7 --- 608  Distance: 16.88
+6_Stair_S_7 --- 5_Stair_S_7  Distance: 5
+6_Stair_S_7 --- 6_Stair_C_5  Distance: 15.5427
+
+CurPoint: 7_Stair_S_8 Height: 21.5455
+7_Stair_S_8 --- 7_WayPoint_1  Distance: 11.4463
+7_Stair_S_8 --- 703  Distance: 6.34574
+7_Stair_S_8 --- 6_Stair_S_8  Distance: 5
+7_Stair_S_8 --- 7_Stair_C_6  Distance: 13.2165
+
+CurPoint: 7_Stair_S_9 Height: 19.8123
+7_Stair_S_9 --- 706  Distance: 17.3166
+7_Stair_S_9 --- 707  Distance: 2.83389
+7_Stair_S_9 --- 6_Stair_S_9  Distance: 5
+7_Stair_S_9 --- 7_Stair_S_10  Distance: 10.018
+
+CurPoint: 7_Stair_S_10 Height: 19.412
+7_Stair_S_10 --- 707  Distance: 11.9868
+7_Stair_S_10 --- 6_Stair_S_10  Distance: 5
+7_Stair_S_10 --- 7_Stair_S_9  Distance: 10.018
+
+CurPoint: 1_Stair_C_1 Height: 0
+1_Stair_C_1 --- 101  Distance: 15.5828
+1_Stair_C_1 --- 103  Distance: 8.16375
+1_Stair_C_1 --- 105  Distance: 19.2999
+1_Stair_C_1 --- North_Door_1  Distance: 6.20752
+1_Stair_C_1 --- 2_Stair_C_1  Distance: 4.09384
+
+CurPoint: 1_Stair_C_2 Height: 0
+1_Stair_C_2 --- 105  Distance: 18.7
+1_Stair_C_2 --- 106  Distance: 7.99602
+1_Stair_C_2 --- 107  Distance: 16.83
+1_Stair_C_2 --- North_Door_2  Distance: 22.9055
+1_Stair_C_2 --- 1_Stair_S_2  Distance: 12.0391
+1_Stair_C_2 --- 1_Stair_S_3  Distance: 13.7928
+1_Stair_C_2 --- 2_Stair_C_2  Distance: 2.71261
+
+CurPoint: 1_Stair_C_3 Height: 0
+1_Stair_C_3 --- 107  Distance: 15.4881
+1_Stair_C_3 --- Center_Door_1  Distance: 17.8212
+1_Stair_C_3 --- North_Door_2  Distance: 6.90163
+1_Stair_C_3 --- North_Door_3  Distance: 12.4376
+1_Stair_C_3 --- 1_Stair_S_4  Distance: 15.7029
+1_Stair_C_3 --- 2_Stair_S_4  Distance: 15.7418
+1_Stair_C_3 --- 2_Stair_C_3  Distance: 1.58651
+1_Stair_C_3 --- 1_Stair_N_1  Distance: 9.93236
+
+CurPoint: 1_Stair_C_4 Height: 0
+1_Stair_C_4 --- Center_Door_1  Distance: 17.8212
+1_Stair_C_4 --- North_Door_3  Distance: 23.5556
+1_Stair_C_4 --- North_Door_4  Distance: 4.03352
+1_Stair_C_4 --- 216  Distance: 7.92309
+1_Stair_C_4 --- 217  Distance: 20.9174
+1_Stair_C_4 --- 1_Stair_S_5  Distance: 14.326
+1_Stair_C_4 --- 2_Stair_S_5  Distance: 14.326
+1_Stair_C_4 --- 2_Stair_C_4  Distance: 0.187684
+1_Stair_C_4 --- 3_Stair_C_4  Distance: 5.18768
+
+CurPoint: 1_Stair_C_5 Height: 0
+1_Stair_C_5 --- Center_Door_2  Distance: 28.6945
+1_Stair_C_5 --- North_Door_5  Distance: 16.8758
+1_Stair_C_5 --- North_Door_6  Distance: 9.97584
+1_Stair_C_5 --- 218  Distance: 17.6113
+1_Stair_C_5 --- 118  Distance: 9.77544
+1_Stair_C_5 --- 1_Stair_S_7  Distance: 15.5355
+1_Stair_C_5 --- 2_Stair_S_7  Distance: 15.5355
+1_Stair_C_5 --- 2_Stair_C_5  Distance: 0
+1_Stair_C_5 --- 3_Stair_C_5  Distance: 3.13343
+1_Stair_C_5 --- 1_Stair_N_2  Distance: 12.0182
+
+CurPoint: 1_Stair_C_6 Height: 0
+1_Stair_C_6 --- Center_Door_2  Distance: 19.9848
+1_Stair_C_6 --- North_Door_7  Distance: 5.7206
+1_Stair_C_6 --- North_Door_8  Distance: 18.1605
+1_Stair_C_6 --- 1_Stair_S_8  Distance: 13.2121
+1_Stair_C_6 --- 2_Stair_S_8  Distance: 13.2121
+1_Stair_C_6 --- 3_Stair_S_8  Distance: 13.3022
+1_Stair_C_6 --- 2_Stair_C_6  Distance: 0
+1_Stair_C_6 --- 3_Stair_C_6  Distance: 1.20675
+
+CurPoint: 1_Stair_C_7 Height: 0
+1_Stair_C_7 --- North_Door_8  Distance: 16.5555
+1_Stair_C_7 --- North_Door_9  Distance: 8.49181
+1_Stair_C_7 --- 324  Distance: 16.3524
+1_Stair_C_7 --- 325  Distance: 9.90044
+1_Stair_C_7 --- 1_Stair_S_10  Distance: 15.0417
+1_Stair_C_7 --- 2_Stair_S_10  Distance: 15.0417
+1_Stair_C_7 --- 3_Stair_S_10  Distance: 15.0417
+1_Stair_C_7 --- 2_Stair_C_7  Distance: 0
+1_Stair_C_7 --- 3_Stair_C_7  Distance: 0
+1_Stair_C_7 --- 4_Stair_C_7  Distance: 4.85631
+
+CurPoint: 2_Stair_C_1 Height: 4.09384
+2_Stair_C_1 --- 201  Distance: 15.592
+2_Stair_C_1 --- 203  Distance: 8.16413
+2_Stair_C_1 --- 1_Stair_C_1  Distance: 4.09384
+2_Stair_C_1 --- 3_Stair_C_1  Distance: 5
+
+CurPoint: 2_Stair_C_2 Height: 2.71261
+2_Stair_C_2 --- 207  Distance: 7.99615
+2_Stair_C_2 --- 208  Distance: 16.8405
+2_Stair_C_2 --- 2_Stair_S_2  Distance: 12.0419
+2_Stair_C_2 --- 2_Stair_S_3  Distance: 13.7979
+2_Stair_C_2 --- 1_Stair_C_2  Distance: 2.71261
+2_Stair_C_2 --- 3_Stair_C_2  Distance: 5
+
+CurPoint: 2_Stair_C_3 Height: 1.58651
+2_Stair_C_3 --- 208  Distance: 15.4973
+2_Stair_C_3 --- 211  Distance: 8.13811
+2_Stair_C_3 --- 1_Stair_S_4  Distance: 15.7828
+2_Stair_C_3 --- 2_Stair_S_4  Distance: 15.7102
+2_Stair_C_3 --- 1_Stair_C_3  Distance: 1.58651
+2_Stair_C_3 --- 3_Stair_C_3  Distance: 5
+2_Stair_C_3 --- 1_Stair_N_1  Distance: 10.0583
+
+CurPoint: 2_Stair_C_4 Height: 0.187684
+2_Stair_C_4 --- North_Door_4  Distance: 4.03789
+2_Stair_C_4 --- 216  Distance: 7.92077
+2_Stair_C_4 --- 1_Stair_S_5  Distance: 14.3272
+2_Stair_C_4 --- 2_Stair_S_5  Distance: 14.3272
+2_Stair_C_4 --- 1_Stair_C_4  Distance: 0.187684
+2_Stair_C_4 --- 3_Stair_C_4  Distance: 5
+
+CurPoint: 2_Stair_C_5 Height: 0
+2_Stair_C_5 --- Center_Door_2  Distance: 28.6945
+2_Stair_C_5 --- North_Door_5  Distance: 16.8758
+2_Stair_C_5 --- North_Door_6  Distance: 9.97584
+2_Stair_C_5 --- 218  Distance: 17.6113
+2_Stair_C_5 --- 118  Distance: 9.77544
+2_Stair_C_5 --- 1_Stair_S_7  Distance: 15.5355
+2_Stair_C_5 --- 2_Stair_S_7  Distance: 15.5355
+2_Stair_C_5 --- 1_Stair_C_5  Distance: 0
+2_Stair_C_5 --- 3_Stair_C_5  Distance: 3.13343
+2_Stair_C_5 --- 1_Stair_N_2  Distance: 12.0182
+
+CurPoint: 2_Stair_C_6 Height: 0
+2_Stair_C_6 --- Center_Door_2  Distance: 19.9848
+2_Stair_C_6 --- North_Door_7  Distance: 5.7206
+2_Stair_C_6 --- North_Door_8  Distance: 18.1605
+2_Stair_C_6 --- 1_Stair_S_8  Distance: 13.2121
+2_Stair_C_6 --- 2_Stair_S_8  Distance: 13.2121
+2_Stair_C_6 --- 3_Stair_S_8  Distance: 13.3022
+2_Stair_C_6 --- 1_Stair_C_6  Distance: 0
+2_Stair_C_6 --- 3_Stair_C_6  Distance: 1.20675
+
+CurPoint: 2_Stair_C_7 Height: 0
+2_Stair_C_7 --- North_Door_8  Distance: 16.5555
+2_Stair_C_7 --- North_Door_9  Distance: 8.49181
+2_Stair_C_7 --- 324  Distance: 16.3524
+2_Stair_C_7 --- 325  Distance: 9.90044
+2_Stair_C_7 --- 1_Stair_S_10  Distance: 15.0417
+2_Stair_C_7 --- 2_Stair_S_10  Distance: 15.0417
+2_Stair_C_7 --- 3_Stair_S_10  Distance: 15.0417
+2_Stair_C_7 --- 1_Stair_C_7  Distance: 0
+2_Stair_C_7 --- 3_Stair_C_7  Distance: 0
+2_Stair_C_7 --- 4_Stair_C_7  Distance: 4.85631
+
+CurPoint: 3_Stair_C_1 Height: 9.09384
+3_Stair_C_1 --- 301  Distance: 15.592
+3_Stair_C_1 --- 303  Distance: 8.16413
+3_Stair_C_1 --- 2_Stair_C_1  Distance: 5
+3_Stair_C_1 --- 4_Stair_C_1  Distance: 5
+
+CurPoint: 3_Stair_C_2 Height: 7.71261
+3_Stair_C_2 --- 307  Distance: 7.99615
+3_Stair_C_2 --- 308  Distance: 16.8405
+3_Stair_C_2 --- 3_Stair_S_2  Distance: 12.0419
+3_Stair_C_2 --- 3_Stair_S_3  Distance: 13.7979
+3_Stair_C_2 --- 2_Stair_C_2  Distance: 5
+3_Stair_C_2 --- 4_Stair_C_2  Distance: 5
+
+CurPoint: 3_Stair_C_3 Height: 6.58651
+3_Stair_C_3 --- 308  Distance: 15.4973
+3_Stair_C_3 --- 311  Distance: 8.13811
+3_Stair_C_3 --- 3_Stair_S_4  Distance: 15.7102
+3_Stair_C_3 --- 2_Stair_C_3  Distance: 5
+3_Stair_C_3 --- 4_Stair_C_3  Distance: 5
+
+CurPoint: 3_Stair_C_4 Height: 5.18768
+3_Stair_C_4 --- 314  Distance: 7.92077
+3_Stair_C_4 --- 3_Stair_S_5  Distance: 14.3317
+3_Stair_C_4 --- 1_Stair_C_4  Distance: 5.18768
+3_Stair_C_4 --- 2_Stair_C_4  Distance: 5
+3_Stair_C_4 --- 4_Stair_C_4  Distance: 5
+
+CurPoint: 3_Stair_C_5 Height: 3.13343
+3_Stair_C_5 --- 318  Distance: 7.92077
+3_Stair_C_5 --- 3_Stair_S_7  Distance: 15.5427
+3_Stair_C_5 --- 1_Stair_C_5  Distance: 3.13343
+3_Stair_C_5 --- 2_Stair_C_5  Distance: 3.13343
+3_Stair_C_5 --- 4_Stair_C_5  Distance: 5
+
+CurPoint: 3_Stair_C_6 Height: 1.20675
+3_Stair_C_6 --- 321  Distance: 8.3149
+3_Stair_C_6 --- 1_Stair_S_8  Distance: 13.2671
+3_Stair_C_6 --- 2_Stair_S_8  Distance: 13.2671
+3_Stair_C_6 --- 3_Stair_S_8  Distance: 13.2165
+3_Stair_C_6 --- 1_Stair_C_6  Distance: 1.20675
+3_Stair_C_6 --- 2_Stair_C_6  Distance: 1.20675
+3_Stair_C_6 --- 4_Stair_C_6  Distance: 5
+
+CurPoint: 3_Stair_C_7 Height: 0
+3_Stair_C_7 --- North_Door_8  Distance: 16.5555
+3_Stair_C_7 --- North_Door_9  Distance: 8.49181
+3_Stair_C_7 --- 324  Distance: 16.3524
+3_Stair_C_7 --- 325  Distance: 9.90044
+3_Stair_C_7 --- 1_Stair_S_10  Distance: 15.0417
+3_Stair_C_7 --- 2_Stair_S_10  Distance: 15.0417
+3_Stair_C_7 --- 3_Stair_S_10  Distance: 15.0417
+3_Stair_C_7 --- 1_Stair_C_7  Distance: 0
+3_Stair_C_7 --- 2_Stair_C_7  Distance: 0
+3_Stair_C_7 --- 4_Stair_C_7  Distance: 4.85631
+
+CurPoint: 4_Stair_C_1 Height: 14.0938
+4_Stair_C_1 --- 401  Distance: 15.592
+4_Stair_C_1 --- 403  Distance: 8.16413
+4_Stair_C_1 --- 3_Stair_C_1  Distance: 5
+4_Stair_C_1 --- 5_Stair_C_1  Distance: 5
+
+CurPoint: 4_Stair_C_2 Height: 12.7126
+4_Stair_C_2 --- 407  Distance: 7.99615
+4_Stair_C_2 --- 408  Distance: 16.8405
+4_Stair_C_2 --- 4_Stair_S_2  Distance: 12.0419
+4_Stair_C_2 --- 4_Stair_S_3  Distance: 13.7979
+4_Stair_C_2 --- 3_Stair_C_2  Distance: 5
+4_Stair_C_2 --- 5_Stair_C_2  Distance: 5
+
+CurPoint: 4_Stair_C_3 Height: 11.5865
+4_Stair_C_3 --- 408  Distance: 15.4973
+4_Stair_C_3 --- 411  Distance: 8.13811
+4_Stair_C_3 --- 4_Stair_S_4  Distance: 15.7102
+4_Stair_C_3 --- 3_Stair_C_3  Distance: 5
+4_Stair_C_3 --- 5_Stair_C_3  Distance: 5
+4_Stair_C_3 --- 3_Stair_N_1  Distance: 10.0583
+
+CurPoint: 4_Stair_C_4 Height: 10.1877
+4_Stair_C_4 --- 414  Distance: 7.92077
+4_Stair_C_4 --- 437  Distance: 13.9123
+4_Stair_C_4 --- 3_South_To_North4_1  Distance: 3.85457
+4_Stair_C_4 --- 3_South_To_North4_2  Distance: 10.8916
+4_Stair_C_4 --- 4_Stair_S_5  Distance: 14.3317
+4_Stair_C_4 --- 3_Stair_C_4  Distance: 5
+4_Stair_C_4 --- 5_Stair_C_4  Distance: 5
+
+CurPoint: 4_Stair_C_5 Height: 8.13343
+4_Stair_C_5 --- 418  Distance: 7.92077
+4_Stair_C_5 --- 4_Stair_S_7  Distance: 15.5427
+4_Stair_C_5 --- 3_Stair_C_5  Distance: 5
+4_Stair_C_5 --- 5_Stair_C_5  Distance: 5
+4_Stair_C_5 --- 3_Stair_N_2  Distance: 12.1623
+
+CurPoint: 4_Stair_C_6 Height: 6.20675
+4_Stair_C_6 --- 422  Distance: 8.3149
+4_Stair_C_6 --- 4_Stair_S_8  Distance: 13.2165
+4_Stair_C_6 --- 3_Stair_C_6  Distance: 5
+4_Stair_C_6 --- 5_Stair_C_6  Distance: 5
+
+CurPoint: 4_Stair_C_7 Height: 4.85631
+4_Stair_C_7 --- 426  Distance: 7.9475
+4_Stair_C_7 --- 4_Stair_S_9  Distance: 10.1996
+4_Stair_C_7 --- 4_Stair_S_10  Distance: 15.0482
+4_Stair_C_7 --- 1_Stair_C_7  Distance: 4.85631
+4_Stair_C_7 --- 2_Stair_C_7  Distance: 4.85631
+4_Stair_C_7 --- 3_Stair_C_7  Distance: 4.85631
+
+CurPoint: 5_Stair_C_1 Height: 19.0938
+5_Stair_C_1 --- 5_WayPoint_1  Distance: 15.592
+5_Stair_C_1 --- 501  Distance: 8.16413
+5_Stair_C_1 --- 4_Stair_C_1  Distance: 5
+
+CurPoint: 5_Stair_C_2 Height: 17.7126
+5_Stair_C_2 --- 502  Distance: 7.99615
+5_Stair_C_2 --- 503  Distance: 16.8405
+5_Stair_C_2 --- 5_Stair_S_2  Distance: 12.0419
+5_Stair_C_2 --- 5_Stair_S_3  Distance: 13.7979
+5_Stair_C_2 --- 4_Stair_C_2  Distance: 5
+
+CurPoint: 5_Stair_C_3 Height: 16.5865
+5_Stair_C_3 --- 503  Distance: 15.4973
+5_Stair_C_3 --- 506  Distance: 8.13811
+5_Stair_C_3 --- 5_Stair_S_4  Distance: 15.7102
+5_Stair_C_3 --- 4_Stair_C_3  Distance: 5
+5_Stair_C_3 --- 6_Stair_C_3  Distance: 5
+
+CurPoint: 5_Stair_C_4 Height: 15.1877
+5_Stair_C_4 --- 509  Distance: 7.92077
+5_Stair_C_4 --- 5_Stair_S_5  Distance: 14.3317
+5_Stair_C_4 --- 4_Stair_C_4  Distance: 5
+5_Stair_C_4 --- 6_Stair_C_4  Distance: 5
+
+CurPoint: 5_Stair_C_5 Height: 13.1334
+5_Stair_C_5 --- 513  Distance: 7.92077
+5_Stair_C_5 --- 5_Stair_S_7  Distance: 15.5427
+5_Stair_C_5 --- 4_Stair_C_5  Distance: 5
+5_Stair_C_5 --- 6_Stair_C_5  Distance: 5
+
+CurPoint: 5_Stair_C_6 Height: 11.2067
+5_Stair_C_6 --- 517  Distance: 8.3149
+5_Stair_C_6 --- 5_Stair_S_8  Distance: 13.2165
+5_Stair_C_6 --- 4_Stair_C_6  Distance: 5
+5_Stair_C_6 --- 6_Stair_C_6  Distance: 5
+
+CurPoint: 6_Stair_C_3 Height: 21.5865
+6_Stair_C_3 --- 5_Stair_C_3  Distance: 5
+6_Stair_C_3 --- 5_Stair_N_1  Distance: 10.0583
+
+CurPoint: 6_Stair_C_4 Height: 20.1877
+6_Stair_C_4 --- 6_WayPoint_1  Distance: 7.92077
+6_Stair_C_4 --- 532  Distance: 13.9123
+6_Stair_C_4 --- 6_Stair_S_5  Distance: 14.3317
+6_Stair_C_4 --- 5_Stair_C_4  Distance: 5
+
+CurPoint: 6_Stair_C_5 Height: 18.1334
+6_Stair_C_5 --- 605  Distance: 7.92077
+6_Stair_C_5 --- 6_Stair_S_7  Distance: 15.5427
+6_Stair_C_5 --- 5_Stair_C_5  Distance: 5
+6_Stair_C_5 --- 7_Stair_C_5  Distance: 5
+6_Stair_C_5 --- 5_Stair_N_2  Distance: 12.1623
+
+CurPoint: 6_Stair_C_6 Height: 16.2067
+6_Stair_C_6 --- 609  Distance: 8.3149
+6_Stair_C_6 --- 6_Stair_S_8  Distance: 13.2165
+6_Stair_C_6 --- 5_Stair_C_6  Distance: 5
+6_Stair_C_6 --- 7_Stair_C_6  Distance: 5
+
+CurPoint: 7_Stair_C_5 Height: 23.1334
+7_Stair_C_5 --- 6_Stair_C_5  Distance: 5
+
+CurPoint: 7_Stair_C_6 Height: 21.2067
+7_Stair_C_6 --- 703  Distance: 8.3149
+7_Stair_C_6 --- 7_Stair_S_8  Distance: 13.2165
+7_Stair_C_6 --- 6_Stair_C_6  Distance: 5
+
+CurPoint: 1_Stair_N_1 Height: 0
+1_Stair_N_1 --- 107  Distance: 23.5168
+1_Stair_N_1 --- Center_Door_1  Distance: 20.0379
+1_Stair_N_1 --- North_Door_2  Distance: 9.72296
+1_Stair_N_1 --- North_Door_3  Distance: 11.0137
+1_Stair_N_1 --- 1_Stair_C_3  Distance: 9.93236
+1_Stair_N_1 --- 2_Stair_C_3  Distance: 10.0583
+1_Stair_N_1 --- 3_Stair_N_1  Distance: 10
+
+CurPoint: 1_Stair_N_2 Height: 0
+1_Stair_N_2 --- North_Door_5  Distance: 10.8253
+1_Stair_N_2 --- North_Door_6  Distance: 17.2293
+1_Stair_N_2 --- 218  Distance: 19.562
+1_Stair_N_2 --- 118  Distance: 21.7934
+1_Stair_N_2 --- 1_Stair_C_5  Distance: 12.0182
+1_Stair_N_2 --- 2_Stair_C_5  Distance: 12.0182
+1_Stair_N_2 --- 3_Stair_N_2  Distance: 10
+
+CurPoint: 3_Stair_N_1 Height: 10
+3_Stair_N_1 --- 442  Distance: 7.92
+3_Stair_N_1 --- 443  Distance: 16.06
+3_Stair_N_1 --- 4_South_To_North5_1  Distance: 15.4831
+3_Stair_N_1 --- 4_Stair_C_3  Distance: 10.0583
+3_Stair_N_1 --- 5_Stair_N_1  Distance: 10
+
+CurPoint: 3_Stair_N_2 Height: 10
+3_Stair_N_2 --- 434  Distance: 7.7
+3_Stair_N_2 --- 433  Distance: 16.06
+3_Stair_N_2 --- 4_South_To_North4_1  Distance: 29.7708
+3_Stair_N_2 --- 4_Stair_C_5  Distance: 12.1623
+3_Stair_N_2 --- 5_Stair_N_2  Distance: 10
+
+CurPoint: 5_Stair_N_1 Height: 20
+5_Stair_N_1 --- 538  Distance: 7.92
+5_Stair_N_1 --- 537  Distance: 16.06
+5_Stair_N_1 --- 6_Stair_C_3  Distance: 10.0583
+
+CurPoint: 5_Stair_N_2 Height: 20
+5_Stair_N_2 --- 529  Distance: 7.7
+5_Stair_N_2 --- 528  Distance: 16.06
+5_Stair_N_2 --- 5_South_To_North5_1  Distance: 29.7708
+5_Stair_N_2 --- 6_Stair_C_5  Distance: 12.1623
+
