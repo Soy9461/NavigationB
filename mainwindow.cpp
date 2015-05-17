@@ -30,14 +30,19 @@ void MainWindow::on_pushButton_clicked()
 
     std::deque<INavigationPoint*>* path = theBuilding.FindPath(origin, destination);
 
-    std::deque<INavigationPoint*>::const_iterator iterator = path->begin(), end = path->end();
+    if(path != 0){
 
-    for(; iterator != end; ++iterator){
+        std::deque<INavigationPoint*>::const_iterator iterator = path->begin(), end = path->end();
 
-        pathStr.append((*iterator)->GetName().c_str());
+        for(; iterator != end; ++iterator){
 
-        if(iterator + 1 != end)pathStr.append("->");
+            pathStr.append((*iterator)->GetName().c_str());
 
+            if(iterator + 1 != end)pathStr.append(" -> ");
+
+        }
+    } else {
+        pathStr = "Path do not exist.";
     }
 
     //pathStr = origin + destination;
