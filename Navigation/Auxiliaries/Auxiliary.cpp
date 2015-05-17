@@ -21,7 +21,7 @@ void _itoa_s(int num, char *str, int radix) {
 
     p = str;
 
-    if (num > 0) {
+    if (num < 0) {
 
         *p++ = '-';
 
